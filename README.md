@@ -212,3 +212,6 @@ Placeholder text for external code used from guides/tutorials
 
 ### Assets Used
 Placeholder text for images and media used
+
+## Acknowledgements
+Placeholder text for special thanks to those that helped and supported
