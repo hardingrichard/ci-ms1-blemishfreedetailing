@@ -204,3 +204,11 @@ Known Bugs | Fix
 -----------|-----
 Bug placeholder text 1 | Fix information placeholder text 1
 Bug placeholder text 2 | Fix information placeholder text 2
+
+## Credits
+
+### External Code
+Placeholder text for external code used from guides/tutorials
+
+### Assets Used
+Placeholder text for images and media used
