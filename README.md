@@ -39,5 +39,14 @@ A static website for a small-medium sized company specialising in car detailing.
 9. [Acknowledgements](#acknowledgements)
 10. [License](#license)
 
+## Information Gathering
+
+### Target Audience
+* Car owners
+* People short on time to clean their car
+* People who don't have the ability to clean their car
+* Small to Medium sized car dealerships
+* People wanting to get their car ready for sale
+* Car collectors and enthusiasts
 
 
