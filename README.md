@@ -15,7 +15,7 @@ A static website for a small-medium sized company specialising in car detailing.
     2. [Wireframes](#wireframes)
     3. [Style Tile](#style-tile)
     4. [Design choice](#design-choice)
-3. [Content/Features](#content/features)
+3. [Site Features](#site-features)
     1. [global](#global)
     2. [Home](#home)
     3. [About](#about)
@@ -89,23 +89,33 @@ site owner | convert site visits into bookings | I can increase revenue.
 <summary>Home Page</summary>
 <img src="docs/wireframes/wireframe-home.jpg" alt="Home page image">
 </details>
-
 <details>
 <summary>About Page</summary>
 <img src="docs/wireframes/wireframe-about.jpg" alt="About page image">
 </details>
-
 <details>
 <summary>Services Page</summary>
 <img src="docs/wireframes/wireframe-services.jpg" alt="Services page image">
 </details>
-
 <details>
 <summary>Gallery Page</summary>
 <img src="docs/wireframes/wireframe-gallery.jpg" alt="Gallery page image">
 </details>
-
 <details>
 <summary>Contact Us Page</summary>
 <img src="docs/wireframes/wireframe-contact.jpg" alt="Contact Us page image">
 </details>
+
+## Style Tile
+
+<img src="docs/style-tile.jpg" att="A style tile for the site design">
+
+## Design choice
+
+### Fonts
+Font use reasoning placeholder
+
+### Colours
+Colour use reasoning placeholder
+
+
