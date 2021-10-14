@@ -181,3 +181,21 @@ Colour use reasoning placeholder
 * Google Fonts
 * Font Awesome
 * Unsplash
+
+## Testing
+
+### Validation
+Validation testing placeholder text
+
+### Performance
+Performance testing placeholder text
+
+### Accessibility
+Accessibility testing placeholder text
+
+### Compatibility
+Compatibility testing placeholder text
+
+### User Stories Testing
+User Stories testing placeholder text
+
