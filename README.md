@@ -158,10 +158,26 @@ Colour use reasoning placeholder
     placeholder text
 </details>
 
-
 ## Future Scope
 
 ### Features To Be Added
 * Booking system
 * JavaScript implementation for smoother user experience
 * Back end database requirements for form submission
+
+## Technology Stack
+
+### Languages
+* HTML5
+* CSS3
+
+### Frameworks/Tools
+* Git
+* Gitpod
+* Github
+* Balsamiq Wireframes
+* Chrome DevTools
+* Chrome Lighthouse
+* Google Fonts
+* Font Awesome
+* Unsplash
