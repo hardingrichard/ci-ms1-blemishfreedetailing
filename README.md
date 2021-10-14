@@ -121,7 +121,12 @@ Colour use reasoning placeholder
 ## Site Features
 
 ### Global
-Features that appear on each page of the website
+<details>
+    <summary>Features that appear on each page of the website</summary>
+    <li>Navigation Bar</li>
+    <li>Hero Section</li>
+    <li>Footer</li>
+</details>
 
 ### Home
 <details> 
@@ -152,3 +157,11 @@ Features that appear on each page of the website
     <summary>Contact Us page features and screenshots</summary>
     placeholder text
 </details>
+
+
+## Future Scope
+
+### Features To Be Added
+* Booking system
+* JavaScript implementation for smoother user experience
+* Back end database requirements for form submission
