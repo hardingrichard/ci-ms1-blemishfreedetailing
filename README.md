@@ -215,3 +215,6 @@ Placeholder text for images and media used
 
 ## Acknowledgements
 Placeholder text for special thanks to those that helped and supported
+
+## License
+Placeholder text where License information will be linked
