@@ -118,4 +118,37 @@ Font use reasoning placeholder
 ### Colours
 Colour use reasoning placeholder
 
+## Site Features
 
+### Global
+Features that appear on each page of the website
+
+### Home
+<details> 
+    <summary>Home page features and screenshots</summary>
+    placeholder text
+</details>
+
+### About
+<details>
+    <summary>about page features and screenshots</summary>
+    placeholder text
+</details>
+
+### Services
+<details>
+    <summary>Services page features and screenshots</summary>
+    placeholder text
+</details>
+
+### Gallery
+<details>
+    <summary>Gallery page features and screenshots</summary>
+    placeholder text
+</details>
+
+### Contact Us
+<details>
+    <summary>Contact Us page features and screenshots</summary>
+    placeholder text
+</details>
