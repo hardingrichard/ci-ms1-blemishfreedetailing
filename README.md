@@ -16,7 +16,7 @@ A static website for a small-medium sized company specialising in car detailing.
     3. [Style Tile](#style-tile)
     4. [Design choice](#design-choice)
 3. [Content/Features](#content/features)
-    1. [Navigation/Footer](#navigation/footer)
+    1. [global](#global)
     2. [Home](#home)
     3. [About](#about)
     4. [Services](#services)
