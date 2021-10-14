@@ -49,4 +49,11 @@ A static website for a small-medium sized company specialising in car detailing.
 * People wanting to get their car ready for sale
 * Car collectors and enthusiasts
 
-
+### User Requirements
+* Intuitive site design to easily navigate
+* Easily find pricing and company information
+* Find out the business location
+* Contact the business
+* Responsive to multiple devices
+* Features to work as intended
+* Be accessible
