@@ -31,7 +31,7 @@ A static website for a small-medium sized company specialising in car detailing.
     2. [Performance](#performance)
     3. [Accessibility](#accessibility)
     4. [Compatibility](#compatibility)
-    5. [User Story Testing](#user-story-testing)
+    5. [User Stories Testing](#user-stories-testing)
 7. [Bugs And Fix](#bugs-and-fixes)
 8. [Credits](#credits)
     1. [External Code](#external-code)
