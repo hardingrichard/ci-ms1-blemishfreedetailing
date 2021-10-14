@@ -57,3 +57,24 @@ A static website for a small-medium sized company specialising in car detailing.
 * Responsive to multiple devices
 * Features to work as intended
 * Be accessible
+
+### User Stories
+As a | I want to | so that
+-----|-----------|--------
+new user | find the prices | I can decide if the services are affordable.
+new user | find contact details | I can book my car to be cleaned.
+new user | see photos of past projects | I can see the level of quality of the services.
+new user | see where the company is located | I can see if they're local to me.
+new user | check the company has a social media presence | verify the company is genuine and see what else they are up to.
+new user | know more about the company | I can see how long they have been trading and have confidence using them.
+returning user | see what services are offered | I can decide which best suits my needs.
+returning user | see the contact number | I can make a booking.
+returning user | find directions to the company | I can drop my car off for cleaning.
+returning user | be able to leave a message | they can get back to me at a later date.
+returning user | easily book my car | can have it cleaned.
+site owner | have the company location displayed | customers can easily find and get directions.
+site owner | detail the prices for services | customers know how much each service will cost them.
+site owner | have contact information displayed | customers can get in contact.
+site owner | have a gallery page | potential customers can see past work.
+site owner | detail information about the company | I can build customer trust in the company.
+site owner | convert site visits into bookings | I can increase revenue.
