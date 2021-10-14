@@ -32,7 +32,7 @@ A static website for a small-medium sized company specialising in car detailing.
     3. [Accessibility](#accessibility)
     4. [Compatibility](#compatibility)
     5. [User Story Testing](#user-story-testing)
-7. [Bugs/Fixes](#bugs/fixes)
+7. [Bugs And Fix](#bugs-and-fixes)
 8. [Credits](#credits)
     1. [External Code](#external-code)
     2. [Assets Used](#assets-used)
@@ -199,3 +199,8 @@ Compatibility testing placeholder text
 ### User Stories Testing
 User Stories testing placeholder text
 
+## Bugs And Fix
+Known Bugs | Fix
+-----------|-----
+Bug placeholder text 1 | Fix information placeholder text 1
+Bug placeholder text 2 | Fix information placeholder text 2
