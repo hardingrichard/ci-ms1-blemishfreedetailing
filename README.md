@@ -25,7 +25,7 @@ A static website for a small-medium sized company specialising in car detailing.
 4. [Future Scope](#future-scope)
 5. [Technology Stack](#technology-stack)
     1. [Languages](#languages)
-    2. [Frameworks/Tools](#frameworks/tools)
+    2. [Frameworks And Tools](#frameworks-and-tools)
 6. [Testing](#testing)
     1. [Validation](#validation)
     2. [Performance](#performance)
@@ -171,7 +171,7 @@ Colour use reasoning placeholder
 * HTML5
 * CSS3
 
-### Frameworks/Tools
+### Frameworks And Tools
 * Git
 * Gitpod
 * Github
