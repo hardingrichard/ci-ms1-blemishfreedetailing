@@ -1,10 +1,11 @@
-/* Global style */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
+/* Global style */
+
 body {
   font-family: 'Noto Sans', sans-serif;
+  background-color: #9B9191;
 }
 
 h1, h2, h3 {
