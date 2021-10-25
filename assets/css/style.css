@@ -5,11 +5,11 @@
 
 body {
   font-family: 'Noto Sans', sans-serif;
-  background-color: #9B9191;
+  background-color: #f2f2f0;
 }
 
 h1, h2, h3 {
-  font-family: 'Roboto', sans-serif
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Home page style */
