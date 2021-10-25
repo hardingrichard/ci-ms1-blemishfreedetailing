@@ -1,3 +1,16 @@
+/* Global style */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif
+}
+
 /* Home page style */
 
 /* About page style */
