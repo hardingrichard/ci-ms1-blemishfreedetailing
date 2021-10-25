@@ -26,26 +26,9 @@
   width: 100%;
 }
 
-/* Responsive layout (Large screen) - Four column to Two Column */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout (Tablet & Mobile) - Two columns to stack on top of each other, 
-One column for smaller screens and mobile devices */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
 /* Contact Page style */
 
-/* Responsive Embedded Google Map */
+/* Responsive layout Embedded Google Map */
 .responsive-map{
   overflow:hidden;
   padding-bottom:56%;
@@ -58,4 +41,20 @@ One column for smaller screens and mobile devices */
   height:100%;
   width:100%;
   position:absolute;
+}
+
+/* Responsive layout (iPad) - Four column to Two Column */
+@media screen and (max-width: 768px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout (Mobile) - Two columns to One column to stack on top of each other */
+@media screen and (max-width: 320px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
