@@ -12,6 +12,26 @@ h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Navbar style */
+.navbar-theme {
+  background-color: #19181b;
+}
+
+.navbar-dark .navbar-brand {
+  color: #FF8A00;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #FF8A00;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #f2f2f0;
+}
+
+#navbarSupportedContent.collapse.navbar-collapse {
+  flex-grow: 0;
+}
 /* Home page style */
 
 /* About page style */
