@@ -35,6 +35,9 @@ h1, h2, h3 {
   flex-grow: 0;
 }
 
+/* Footer style */
+
+
 /* Home page style */
 
 /* Hero image styling */
@@ -43,7 +46,7 @@ h1, h2, h3 {
   display: grid;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .hero-content {
@@ -58,7 +61,7 @@ h1, h2, h3 {
 }
 
 .hero-img {
-  display: block;
+  display: grid;
   overflow: visible;
   margin-left: auto;
   margin-right: auto;
@@ -70,10 +73,6 @@ h1, h2, h3 {
 /* Override the body color style for h1 */
 .hero-content > h1 {
   color: #f2f2f0;
-}
-
-.hero-content > p {
-  font-size: small;
 }
 
 /* About page style */
@@ -92,7 +91,22 @@ h1, h2, h3 {
   padding: 5px 10px;
   font-size: 0.75rem;
 }
+
 /* Services section */
+
+img {
+  width: 100%;
+}
+
+.bv-img {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5vh;
+  align-content: center;
+  justify-items: center;
+  justify-content: space-evenly;
+}
 
 /* Services page style */
 
