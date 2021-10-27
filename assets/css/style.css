@@ -182,7 +182,7 @@ footer form input:hover {
   z-index: -1;
 }
 
-#main-content1 {
+#main-content1 { /* Pick this up tomorrow */
   position: relative;
   left: 40%;
   right: 50%;
