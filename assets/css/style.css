@@ -142,7 +142,7 @@ footer form input:hover {
   color: #f2f2f0;
 }
 
-/* About page style */
+/* Main page About style */
 #main-about {
   padding: 5vh 5vw;
   text-align: center;
@@ -158,8 +158,7 @@ footer form input:hover {
   font-size: 0.75rem;
 }
 
-/* Services section */
-
+/* Main page Services section */
 #main-services {
   display: flex;
   flex-wrap: wrap;
@@ -192,6 +191,16 @@ footer form input:hover {
   text-transform: uppercase;
   color: #f2f2f0;
   z-index: 1;
+}
+
+/* Main page request a booking */
+#main-booking {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
 }
 
 /* Services page style */
