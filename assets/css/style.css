@@ -203,6 +203,14 @@ footer form input:hover {
   text-align: center;
 }
 
+#main-booking input {
+  margin-bottom: 10px;
+}
+
+#main-booking textarea {
+  margin-bottom: 10px;
+}
+
 /* Services page style */
 
 /* Gallery Page style */
