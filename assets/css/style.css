@@ -211,6 +211,15 @@ footer form input:hover {
   margin-bottom: 10px;
 }
 
+.submit-btn {
+  background-color: #19181b;
+  color: #f2f2f0;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+  font-size: 0.75rem;
+}
+
 /* Services page style */
 
 /* Gallery Page style */
