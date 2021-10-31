@@ -101,7 +101,6 @@ footer form input:hover {
   margin: 0.5rem;
 }
 
-
 /* Home page style */
 
 /* Hero image styling */
@@ -160,12 +159,11 @@ footer form input:hover {
 
 /* Main page Services section */
 #main-services {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 
 .main-container {
@@ -174,22 +172,24 @@ footer form input:hover {
   width: 280px;
   margin: 2vh 2vw;
   align-items: center;
+  justify-content: center;
   overflow: hidden;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 .3em 0.5em #19181b;
 }
 
 .main-img {
-  display: block;
-  width: 320px;
+  display: flex;
+  width: auto;
   height: auto;
   z-index: -1;
 }
 
-#main-content1 { /* Pick this up tomorrow */
-  position: relative;
-  left: 40%;
-  right: 50%;
-  text-transform: uppercase;
-  color: #f2f2f0;
+.main-content { 
+  display: flex;
+  position: absolute;
+  vertical-align: middle;
+  text-align: center;
   z-index: 1;
 }
 
