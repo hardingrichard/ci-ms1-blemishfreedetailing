@@ -119,6 +119,7 @@ footer form input:hover {
   position: absolute;
   margin-top: 50%;
   margin-bottom: 50%;
+  vertical-align: middle;
   text-align: center;
   text-transform: uppercase;
   color: #f2f2f0;
@@ -196,6 +197,10 @@ footer form input:hover {
 .main-content h3 {
   color: #f2f2f0;
   text-transform: capitalize;
+}
+
+.main-content h3:hover {
+  color: #FF8A00;
 }
 
 /* Main page request a booking */
