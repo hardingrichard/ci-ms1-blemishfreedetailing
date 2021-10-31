@@ -175,7 +175,7 @@ footer form input:hover {
   justify-content: center;
   overflow: hidden;
   background: rgba(0, 0, 0, 0.3);
-  box-shadow: 0 .3em 0.5em #19181b;
+  box-shadow: 0 5px 10px #19181b;
 }
 
 .main-img {
@@ -188,9 +188,13 @@ footer form input:hover {
 .main-content { 
   display: flex;
   position: absolute;
-  vertical-align: middle;
   text-align: center;
+  justify-content: center;
   z-index: 1;
+}
+
+.main-content h3 {
+  color: #f2f2f0;
 }
 
 /* Main page request a booking */
