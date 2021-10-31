@@ -195,6 +195,7 @@ footer form input:hover {
 
 .main-content h3 {
   color: #f2f2f0;
+  text-transform: capitalize;
 }
 
 /* Main page request a booking */
@@ -236,14 +237,10 @@ footer form input:hover {
 }
 
 /* Four equal image columns next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
 
 .column img {
-  margin-top: 8px;
+  margin-top: 4px;
+  margin-bottom: 4px;
   vertical-align: middle;
   width: 100%;
 }
@@ -265,18 +262,29 @@ footer form input:hover {
   position:absolute;
 }
 
-/* Responsive layout (iPad) - Four column to Two Column */
-@media (max-width: 768px) {
+@media screen and (min-width: 769px) {
+  /* Responsive layout (desktop) - Four columbs side by side */
   .column {
-    flex: 50%;
-    max-width: 50%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
   }
 }
 
-/* Responsive layout (Mobile) - Two columns to One column to stack on top of each other */
-@media (max-width: 320px) {
+@media (max-width: 768px) {
+  /* Responsive layout (iPad) - Four column to Two Column */
+  .column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+}
+
+@media (max-width: 420px) {
+  /* Responsive layout (Mobile) - Two columns to One column to stack on top of each other */
   .column {
     flex: 100%;
     max-width: 100%;
+    padding: 0 4px;
   }
 }
