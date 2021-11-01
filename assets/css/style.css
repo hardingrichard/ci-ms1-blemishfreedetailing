@@ -42,74 +42,6 @@ h1, h2, h3 {
   flex-grow: 0;
 }
 
-/* Footer style */
-footer {
-  background-color: #19181b;
-  color: #f2f2f0;
-  text-align: center;
-}
-
-.footer-contact {
-  display: block;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.footer-contact a {
-  text-decoration: none;
-  color: #f2f2f0;
-}
-
-.footer-contact a:hover {
-  color: #ae4836;
-}
-
-/* Get Directions button */
-footer form input {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1rem;
-  background-color: #9b9191;
-  color: #f2f2f0;
-  border-radius: 5px;
-  border: none;
-  padding: 5px 10px;
-  font-size: 0.75rem;
-}
-
-footer form input:hover {
-  background-color: #ae4836;
-  color: #f2f2f0;
-}
-
-.footer-navigation a {
-  text-decoration: none;
-  color: #f2f2f0;
-}
-
-.footer-navigation a:hover {
-  color: #ae4836;
-}
-
-.footer-socials a {
-  display: inline-block;
-  padding: 1rem;
-  text-decoration: none;
-  color: #FF8A00;
-  font-size: 2em;
-}
-
-.footer-socials a:hover {
-  color: #ae4836;
-}
-
-.copyright {
-  color: #f2f2f0;
-  text-align: center;
-  margin: 0.5rem;
-}
-
 /* Home page style */
 
 /* Hero image styling */
@@ -158,7 +90,7 @@ footer form input:hover {
   background-color: #f2f2f0;
 }
 
-#main-btn {
+.dark-btn {
   background-color: #19181b;
   color: #f2f2f0;
   border-radius: 5px;
@@ -239,6 +171,45 @@ footer form input:hover {
   font-size: 0.75rem;
 }
 
+/* About Us page style */
+
+#about-us {
+  display: block;
+  margin: 5vw;
+  text-align: center;
+  background-color: #f2f2f0;
+}
+
+#profile-img {
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 5vw;
+  height: auto;
+  max-width: 100%;
+}
+
+#profile-img > img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#our-work {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 2vh 2vw;
+}
+
+#our-services {
+  display: block;
+  margin: 5vw;
+  text-align: center;
+  background-color: #f2f2f0;
+}
+
 /* Services page style */
 
 /* Gallery Page style */
@@ -276,7 +247,76 @@ footer form input:hover {
   position:absolute;
 }
 
-@media screen and (min-width: 769px) {
+/* Footer style */
+
+footer {
+  background-color: #19181b;
+  color: #f2f2f0;
+  text-align: center;
+}
+
+.footer-contact {
+  display: block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer-contact a {
+  text-decoration: none;
+  color: #f2f2f0;
+}
+
+.footer-contact a:hover {
+  color: #ae4836;
+}
+
+/* Get Directions button */
+footer form input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  background-color: #9b9191;
+  color: #f2f2f0;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+  font-size: 0.75rem;
+}
+
+footer form input:hover {
+  background-color: #ae4836;
+  color: #f2f2f0;
+}
+
+.footer-navigation a {
+  text-decoration: none;
+  color: #f2f2f0;
+}
+
+.footer-navigation a:hover {
+  color: #ae4836;
+}
+
+.footer-socials a {
+  display: inline-block;
+  padding: 1rem;
+  text-decoration: none;
+  color: #FF8A00;
+  font-size: 2em;
+}
+
+.footer-socials a:hover {
+  color: #ae4836;
+}
+
+.copyright {
+  color: #f2f2f0;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+@media (min-width: 1024px) {
   /* Responsive layout (desktop) - Four columbs side by side */
   .column {
     flex: 25%;
@@ -291,7 +331,7 @@ footer form input:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   /* Responsive layout (iPad) - Four column to Two Column */
   .column {
     flex: 50%;
@@ -306,7 +346,7 @@ footer form input:hover {
   }
 }
 
-@media (max-width: 568px) {
+@media (min-width: 568px) {
   /* Responsive layout (Mobile landscape) - Two columns to One column to stack on top of each other */
   .column {
     flex: 100%;
