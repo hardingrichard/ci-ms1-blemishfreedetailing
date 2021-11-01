@@ -6,9 +6,14 @@
 body {
   display: flex;
   flex-direction: column;
+  text-align: center;
   font-family: 'Noto Sans', sans-serif;
   background-color: #f2f2f0;
   color: #19181b;
+}
+
+main {
+  margin: 5vh 5vw;
 }
 
 h1, h2, h3 {
@@ -16,14 +21,6 @@ h1, h2, h3 {
   color:#FF8A00;
   text-align: center;
 }
-
-/* main {
-  display: flex;
-  flex-direction: column;
-  margin: 5vw;
-  text-align: center;
-  background-color: #f2f2f0;
-} */
 
 /* Navbar style */
 .navbar-theme {
@@ -66,7 +63,8 @@ h1, h2, h3 {
 
 .hero-content {
   position: absolute;
-  margin-top: 50% 5vw;
+  margin-top: 50%;
+  margin-bottom: 50%;
   text-align: center;
   text-transform: uppercase;
   color: #f2f2f0;
@@ -91,9 +89,7 @@ h1, h2, h3 {
 
 /* Main page About style */
 #main-about {
-  padding: 5vh 5vw;
-  text-align: center;
-  background-color: #f2f2f0;
+  padding-bottom: 2vh;
 }
 
 .dark-btn {
@@ -123,7 +119,7 @@ h1, h2, h3 {
   display: flex;
   height: 320px;
   width: 280px;
-  margin: 2vh 2vw;
+  margin: 2vh;
   align-items: center;
   justify-content: center;
   overflow: hidden;
@@ -132,14 +128,12 @@ h1, h2, h3 {
 }
 
 .main-img {
-  display: flex;
   width: auto;
   height: auto;
   z-index: -1;
 }
 
 .main-content { 
-  display: flex;
   position: absolute;
   text-align: center;
   justify-content: center;
@@ -157,11 +151,9 @@ h1, h2, h3 {
 
 /* Main page request a booking */
 #main-booking {
-  display: flex;
   position: relative;
   flex-direction: column;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
   text-align: center;
 }
 
@@ -184,18 +176,15 @@ h1, h2, h3 {
 
 /* About Us page style */
 
-#about-us {
+/* #about-us {
   display: block;
-  margin: 5vw;
   text-align: center;
   background-color: #f2f2f0;
-}
+} */
 
 #profile-img {
-  display: block;
   border-radius: 50%;
   overflow: hidden;
-  margin: 5vw;
   height: auto;
   max-width: 100%;
 }
@@ -206,14 +195,10 @@ h1, h2, h3 {
 }
 
 #our-services {
-  display: block;
-  margin: 5vh 5vw;
-  text-align: center;
-  background-color: #f2f2f0;
+  margin: 5vh 0;
 }
 
 #our-work {
-  display: block;
   overflow: hidden;
   margin: 5vw;
 }
@@ -226,16 +211,12 @@ h1, h2, h3 {
   overflow: visible;
 }
 
-#booking-btn {
-  margin: 0 5vw 5vw 5vh;
-  text-align: center;
-}
-
 /* Services page style */
 
 #packages {
   
 }
+
 /* Gallery Page style */
 
 /* External CSS code for Responsive grid Gallery */
