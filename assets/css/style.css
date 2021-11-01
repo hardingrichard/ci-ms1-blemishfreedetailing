@@ -99,6 +99,11 @@ h1, h2, h3 {
   font-size: 0.75rem;
 }
 
+.dark-btn:hover {
+  background-color: #ae4836;
+  color: #19181b;
+}
+
 /* Main page Services section */
 #main-services {
   position: relative;
@@ -215,6 +220,10 @@ h1, h2, h3 {
   overflow: visible;
 }
 
+#booking-btn {
+  margin: 0 5vw 5vw 5vh;
+  text-align: center;
+}
 /* Services page style */
 
 /* Gallery Page style */
