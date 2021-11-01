@@ -17,6 +17,14 @@ h1, h2, h3 {
   text-align: center;
 }
 
+/* main {
+  display: flex;
+  flex-direction: column;
+  margin: 5vw;
+  text-align: center;
+  background-color: #f2f2f0;
+} */
+
 /* Navbar style */
 .navbar-theme {
   background-color: #19181b;
@@ -58,9 +66,7 @@ h1, h2, h3 {
 
 .hero-content {
   position: absolute;
-  margin-top: 50%;
-  margin-bottom: 50%;
-  vertical-align: middle;
+  margin-top: 50% 5vw;
   text-align: center;
   text-transform: uppercase;
   color: #f2f2f0;
@@ -224,8 +230,12 @@ h1, h2, h3 {
   margin: 0 5vw 5vw 5vh;
   text-align: center;
 }
+
 /* Services page style */
 
+#packages {
+  
+}
 /* Gallery Page style */
 
 /* External CSS code for Responsive grid Gallery */
