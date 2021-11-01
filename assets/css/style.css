@@ -194,20 +194,25 @@ h1, h2, h3 {
   max-width: 100%;
 }
 
-#our-work {
-  display: flexbox;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  overflow: hidden;
-  margin: 2vh 2vw;
-}
-
 #our-services {
   display: block;
-  margin: 5vw;
+  margin: 5vh 5vw;
   text-align: center;
   background-color: #f2f2f0;
+}
+
+#our-work {
+  display: block;
+  overflow: hidden;
+  margin: 5vw;
+}
+
+#our-work img {
+  display: block;
+  padding-top: 2vh;
+  max-height: 100%;
+  max-width: 100%;
+  overflow: visible;
 }
 
 /* Services page style */
