@@ -254,14 +254,31 @@ address a:hover {
   color: #ae4836;
 }
 
+#contact-socials {
+  margin: 5vh 0;
+  padding: 5vh 0;
+  border-bottom: solid thin #19181b;
+}
+
+#contact-socials a {
+  padding: 5vw;
+  text-decoration: none;
+  color: #FF8A00;
+  font-size: 2em;
+}
+
+#contact-socials a:hover {
+  color:#ae4836;
+}
+
 /* Responsive layout Embedded Google Map */
-.responsive-map{
+#responsive-map{
   overflow:hidden;
   padding-bottom:56%;
   position:relative;
   height:0;
 }
-.responsive-map iframe{
+#responsive-map iframe{
   left:0;
   top:0;
   height:100%;
