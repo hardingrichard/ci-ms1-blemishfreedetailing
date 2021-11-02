@@ -175,12 +175,6 @@ h1, h2, h3 {
 
 /* About Us page style */
 
-/* #about-us {
-  display: block;
-  text-align: center;
-  background-color: #f2f2f0;
-} */
-
 #profile-img {
   border-radius: 50%;
   overflow: hidden;
@@ -212,9 +206,16 @@ h1, h2, h3 {
 
 /* Services page style */
 
-#packages {
-  
+#packages img {
+  height: 320px;
+  width: 280px;
 }
+
+.packages-content {
+  padding-top: 2vh;
+  margin-bottom: 10vh;
+}
+
 
 /* Gallery Page style */
 
