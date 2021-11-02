@@ -88,7 +88,8 @@ h1, h2, h3 {
 
 /* Main page About style */
 #main-about {
-  padding-bottom: 2vh;
+  padding-bottom: 5vh;
+  border-bottom: solid thin #19181b;
 }
 
 .dark-btn {
@@ -112,6 +113,9 @@ h1, h2, h3 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-top: 5vh;
+  border-bottom: solid thin #19181b;
+  padding-bottom: 5vh;
 }
 
 .main-container {
@@ -152,8 +156,8 @@ h1, h2, h3 {
 #main-booking {
   position: relative;
   flex-direction: column;
-  padding: 1rem 0;
   text-align: center;
+  margin-top: 5vh;
 }
 
 #main-booking input {
@@ -165,6 +169,11 @@ h1, h2, h3 {
 }
 
 /* About Us page style */
+
+#about-us {
+  border-bottom: solid thin #19181b;
+  padding-bottom: 5vh;
+}
 
 #profile-img {
   border-radius: 50%;
@@ -180,6 +189,8 @@ h1, h2, h3 {
 
 #our-services {
   margin: 5vh 0;
+  border-bottom: solid thin #19181b;
+  padding-bottom: 5vh;
 }
 
 #our-work {
@@ -243,6 +254,7 @@ h1, h2, h3 {
 
 #contact-section {
   margin-bottom: 5vh;
+  border-top: solid thin #19181b;
 }
 
 address a {
