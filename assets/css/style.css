@@ -25,10 +25,9 @@ body {
 
 .hero-content {
   position: absolute;
-  margin-top: 50%;
-  margin-bottom: 50%;
   text-align: center;
   text-transform: uppercase;
+  object-position: center;
   color: #f2f2f0;
   width: 100%;
   z-index: 0;
