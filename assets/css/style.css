@@ -213,9 +213,10 @@ h1, h2, h3 {
 
 .packages-content {
   padding-top: 2vh;
-  margin-bottom: 10vh;
+  padding-bottom: 5vh;
+  margin-bottom: 5vh;
+  border-bottom: solid thin #9b9191;
 }
-
 
 /* Gallery Page style */
 
