@@ -51,7 +51,6 @@ h1, h2, h3 {
 
 /* Hero image styling */
 .hero {
-  position: relative;
   display: flex;
   overflow: hidden;
   height: 75vh;
