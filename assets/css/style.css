@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,900&display=swap');
 
 /* Global style */
 
 body {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   background-color: #f2f2f0;
@@ -56,12 +57,17 @@ h1, h2, h3 {
 }
 
 /* Navbar style */
+
 .navbar-theme {
   background-color: #19181b;
 }
 
 .navbar-dark .navbar-brand {
   color: #FF8A00;
+  font-weight: 900;
+  font-size: 1.2rem;
+  font-family: 'Rubik', sans-serif;
+  margin-right: 0;
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
@@ -109,7 +115,6 @@ h1, h2, h3 {
 
 /* Home page Services section */
 #main-services {
-  position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -222,15 +227,6 @@ h1, h2, h3 {
 }
 
 /* Gallery Page style */
-
-/* External CSS code for Responsive grid Gallery */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Four equal image columns next to each other */
 
 .column img {
   margin-top: 4px;
@@ -369,62 +365,47 @@ footer form input:hover {
   margin: 0.5rem;
 }
 
-@media (min-width: 1024px) {
-  /* Responsive layout (desktop) - Four columbs side by side */
+/* Desktop screen size */
+@media (min-width: 900px) {
+  
+  #main-services {
+    flex: 100%;
+  }
+
+  /* Gallery page - Four columns stacked on one another - 
+  External CSS code for Responsive grid Gallery */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
   .column {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
   }
-
-  .hero-img {
-    overflow: visible;
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
     width: 100%;
-    height: 100%;
   }
 }
 
-@media (min-width: 768px) {
-  /* Responsive layout (iPad) - Four column to Two Column */
+/* Mobile landscape / Tablet screen size */
+@media (min-width: 500px) and (max-width: 899px) {
+  
+  #main-services {
+    flex: 50%;
+  }
+  
+  /* Gallery page - Two columns stacked on one another */
   .column {
     flex: 50%;
     max-width: 50%;
     padding: 0 4px;
   }
 
-  .hero-img {
-    overflow: visible;
-    width: 100%;
-    height: 100%;
-  }
-}
-
-@media (min-width: 568px) {
-  /* Responsive layout (Mobile landscape) - Two columns to One column to stack on top of each other */
-  .column {
-    flex: 100%;
-    max-width: 100%;
-    padding: 0 4px;
-  }
-
-  .hero-img {
-    overflow: visible;
-    width: 100%;
-    height: 100%;
-  }
-}
-
-@media (max-width: 325px) {
-  /* Responsive layout (Mobile) - Two columns to One column to stack on top of each other */
-  .column {
-    flex: 100%;
-    max-width: 100%;
-    padding: 0 4px;
-  }
-
-  .hero-img {
-    overflow: visible;
-    width: auto;
-    height: 100%;
-  }
 }
