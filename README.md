@@ -87,28 +87,28 @@ site owner | convert site visits into bookings | I can increase revenue.
 ### Wireframes
 <details>
 <summary>Home Page</summary>
-<img src="docs/wireframes/wireframe-home.jpg" alt="Home page image">
+<img src="documents/homepage.png" alt="Home page wireframes image">
 </details>
 <details>
 <summary>About Page</summary>
-<img src="docs/wireframes/wireframe-about.jpg" alt="About page image">
+<img src="documents/aboutpage.png" alt="About page wireframes image">
 </details>
 <details>
 <summary>Services Page</summary>
-<img src="docs/wireframes/wireframe-services.jpg" alt="Services page image">
+<img src="documents/servicespage.png" alt="Services page wireframes image">
 </details>
 <details>
 <summary>Gallery Page</summary>
-<img src="docs/wireframes/wireframe-gallery.jpg" alt="Gallery page image">
+<img src="documents/gallerypage.png" alt="Gallery page wireframes image">
 </details>
 <details>
 <summary>Contact Us Page</summary>
-<img src="docs/wireframes/wireframe-contact.jpg" alt="Contact Us page image">
+<img src="documents/contactpage.png" alt="Contact Us page wireframes image">
 </details>
 
 ## Style Tile
 
-<img src="docs/style-tile.jpg" att="A style tile for the site design">
+<img src="documents/styletile.jpg" att="A style tile screenshot for the site design">
 
 ## Design choice
 
