@@ -82,7 +82,7 @@ site owner | convert site visits into bookings | I can increase revenue.
 ## Site Design
 
 ### Sitemap
-![Sitemap image](docs/sitemap.jpg)
+![Sitemap image](documents/sitemap.png)
 
 ### Wireframes
 <details>
@@ -108,7 +108,7 @@ site owner | convert site visits into bookings | I can increase revenue.
 
 ## Style Tile
 
-<img src="documents/styletile.jpg" att="A style tile screenshot for the site design">
+<img src="documents/styletile.png" att="A style tile screenshot for the site design">
 
 ## Design choice
 
