@@ -426,6 +426,16 @@ footer form input:hover {
     vertical-align: middle;
     width: 100%;
   }
+
+  /* Footer horizontal placement for large screens */
+  footer {
+    display: grid;
+    grid-template-columns: 3;
+    grid-auto-rows: 2;
+    grid-template-areas: 
+      "footer-contact footer-navigation footer-socials"
+      "copyright copyright copyright";
+  }
 }
 
 /* Mobile landscape / Tablet screen size */
