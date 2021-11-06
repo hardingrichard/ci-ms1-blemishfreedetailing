@@ -59,6 +59,7 @@ h1, h2, h3 {
 
 .navbar-dark .navbar-brand {
   color: #FF8A00;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   font-weight: 900;
   font-size: 1.2rem;
   font-family: 'Rubik', sans-serif;
@@ -67,10 +68,12 @@ h1, h2, h3 {
 
 .navbar-dark .navbar-nav .nav-link.active {
   color: #FF8A00;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .navbar-dark .navbar-nav .nav-link {
   color: #f2f2f0;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
