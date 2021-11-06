@@ -239,21 +239,19 @@ h1, h2, h3 {
 
 /* Contact Page style */
 
-#contact-form {
-  margin-bottom: 5vh;
+#flname2 {
+  margin-bottom: 0.8rem;
+  width: 50%;
 }
 
-#contact-form input {
-  margin-bottom: 1rem;
+#email2 {
+  margin-bottom: 0.8rem;
+  width: 50%;
 }
 
-#contact-form textarea {
-  margin-bottom: 1rem;
-}
-
-#contact-section {
-  margin-bottom: 5vh;
-  border-top: solid thin #19181b;
+#mbox2 {
+  margin-bottom: 0.6rem;
+  width: 80%;
 }
 
 address a {
@@ -267,8 +265,6 @@ address a:hover {
 
 #contact-socials {
   margin: 5vh 0;
-  padding: 5vh 0;
-  border-bottom: solid thin #19181b;
 }
 
 #contact-socials a {
@@ -282,7 +278,31 @@ address a:hover {
   color:#ae4836;
 }
 
+.ind-col {
+  padding: 2vh;
+  margin: 2vh;
+  border: solid 1px #9b9191;
+  box-shadow: 0 5px 10px #19181b;
+}
+
+.grey-bg {
+  background-color: grey;
+  color: #f2f2f0;
+  border: solid 1px #807777;
+}
+
+.grey-bg a {
+  color: #f2f2f0;
+}
+
 /* Responsive layout Embedded Google Map */
+#map {
+  padding: 2vh;
+  margin: 2vh;
+  border: solid 1px #9b9191;
+  box-shadow: 0 5px 10px #19181b;
+}
+
 #responsive-map{
   overflow: hidden;
   padding-bottom: 56%;
@@ -379,10 +399,37 @@ footer {
     vertical-align: middle;
     width: 100%;
   }
+
+  /* Contact page - booking form side by side contact information */
+  .container {
+    /* border: solid 1px magenta; */
+    padding: 0;
+  }
+
+  .contact-column {
+    display: flex;
+    /* border: solid 1px green; */
+    margin: 0;
+    justify-content: center;
+  }
+
+  .ind-col {
+    width: 50%;
+    /* border: solid 1px blue; */
+    margin-bottom: 5vh;
+  }
+
+  #contact-details {
+    padding: 0;
+  }
+
+  #contact-socials a {
+    padding: 1rem;
+  }
 }
 
-/* Mobile landscape / Tablet screen size */
-@media (min-width: 500px) and (max-width: 899px) {
+/* Tablet screen size */
+@media (min-width: 768px) and (max-width: 899px) {
 
   /* Gallery page - Two columns stacked on one another */
   .column {
@@ -391,4 +438,32 @@ footer {
     padding: 0 4px;
   }
 
+  /* Contact page - booking form side by side contact information */
+  .container {
+    /* border: solid 1px magenta; */
+    padding: 0;
+  }
+
+  .contact-column {
+    display: flex;
+    /* border: solid 1px green; */
+    margin: 0;
+    justify-content: center;
+  }
+
+  .ind-col {
+    width: 50%;
+    /* border: solid 1px blue; */
+    margin-bottom: 5vh;
+  }
+
+  #contact-details {
+    padding: 0;
+  }
+
+  #contact-socials a {
+    justify-content: space-evenly;
+    padding: 1rem;
+    text-align: center;
+  }
 }
