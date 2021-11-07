@@ -20,6 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px 2px #19181b;
 }
 
 .hero-content {
@@ -221,7 +222,8 @@ h1, h2, h3 {
 
 #packages img {
   height: 320px;
-  width: 280px;
+  width: 288px;
+  box-shadow: 0 5px 10px #19181b;
 }
 
 .packages-content {
@@ -229,6 +231,35 @@ h1, h2, h3 {
   padding-bottom: 5vh;
   margin-bottom: 5vh;
   border-bottom: solid thin #9b9191;
+}
+
+.booking-content {
+  background-color: #ae4836;
+  margin-top: 2vh;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: 0 5px 10px #19181b;
+}
+
+.booking-content h2 {
+  color: #f2f2f0;
+  text-shadow: 0 1px 2px #19181b;
+}
+
+.left {
+  background-color: #19181b;
+  color: #f2f2f0;
+  box-shadow: 0 5px 10px #19181b;
+  margin-top: 2vh;
+  padding: 2vh;
+}
+
+.right {
+  background-color: #19181b;
+  color: #f2f2f0;
+  box-shadow: 0 5px 10px #19181b;
+  margin-top: 2vh;
+  padding: 2vh;
 }
 
 /* Gallery Page style */
@@ -382,6 +413,60 @@ footer {
     width: 50vw;
   }
 
+  /* Services page style */
+
+  .services-cont {
+    border: solid 1px magenta;
+  }
+
+  #basic-valet {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    border: solid 1px green;
+  }
+
+  #full-valet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: solid 1px green;
+  }
+
+  #correction {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    border: solid 1px green;
+  }
+
+  #concours {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: solid 1px green;
+  }
+
+  .col1 {
+    margin: 1vw;
+    justify-content: center;
+    width: 30%;
+    border: solid 1px blue;
+  }
+
+  .col2 {
+    margin: 1vw;
+    justify-content: center;
+    width: 70%;
+    border: solid 1px blue;
+  }
+
+  .col3 {
+    display: block;
+    width: 100%;
+    border: solid 1px green;
+  }
+
   /* Gallery page - Four columns stacked on one another - 
   External CSS code for Responsive grid Gallery */
   .row {
@@ -433,6 +518,62 @@ footer {
 
 /* Tablet screen size */
 @media (min-width: 768px) and (max-width: 899px) {
+
+  /* Services page style */
+
+  .services-cont {
+    border: solid 1px magenta;
+  }
+
+  #basic-valet {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    border: solid 1px green;
+  }
+
+  #full-valet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: solid 1px green;
+  }
+
+  #correction {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    border: solid 1px green;
+  }
+
+  #concours {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: solid 1px green;
+  }
+
+  .col1 {
+    margin: 1vw;
+    width: 30%;
+    vertical-align: middle;
+    align-self: center;
+    border: solid 1px blue;
+  }
+
+  .col2 {
+    margin: 1vw;
+    justify-content: center;
+    width: 70%;
+    max-height: 320px;
+    border: solid 1px blue;
+  }
+
+  .col3 {
+    display: block;
+    width: 100%;
+    border: solid 1px green;
+  }
 
   /* Gallery page - Two columns stacked on one another */
   .column {
