@@ -421,9 +421,9 @@ footer {
 
   /* About page style */
 
-  .about-cont {
-    /* border: solid 1px magenta; */
-  }
+  /* .about-cont {
+    border: solid 1px magenta;
+  } */
 
   #about-us {
   display: flex;
@@ -573,9 +573,9 @@ footer {
 
   /* About page style */
 
-  .about-cont {
-    /* border: solid 1px magenta; */
-  }
+  /* .about-cont {
+    border: solid 1px magenta;
+  } */
 
   #about-us {
     display: flex;
