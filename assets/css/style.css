@@ -361,7 +361,7 @@ address a:hover {
 /* Footer style */
 
 footer {
-  display: flexbox;
+  display: block;
   background-color: #19181b;
   color: #f2f2f0;
   text-align: center;
