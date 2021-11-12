@@ -8,7 +8,7 @@ body {
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   background-color: #f2f2f0;
-  color: #19181b;
+  color: #494653;
   height: 100vh;
 }
 
@@ -48,7 +48,7 @@ main {
 
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
-  color:#FF8A00;
+  color: #19181b;
   text-align: center;
 }
 
@@ -267,6 +267,10 @@ h1, h2, h3 {
   padding: 2vh;
 }
 
+.col2 h3 {
+  color: #FF8A00;
+}
+
 /* Gallery Page style */
 
 .column img {
@@ -333,6 +337,10 @@ address a:hover {
 
 .grey-bg a {
   color: #f2f2f0;
+}
+
+.grey-bg h2 {
+  color: #FF8A00;
 }
 
 /* Responsive layout Embedded Google Map */
