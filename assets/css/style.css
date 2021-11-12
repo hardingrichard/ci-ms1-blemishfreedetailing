@@ -315,6 +315,7 @@ address a:hover {
   padding: 5vw;
   text-decoration: none;
   color: #FF8A00;
+  text-shadow: 0 1px 2px #19181b;
   font-size: 2em;
 }
 
@@ -341,6 +342,7 @@ address a:hover {
 
 .grey-bg h2 {
   color: #FF8A00;
+  text-shadow: 0 1px 2px #19181b;
 }
 
 /* Responsive layout Embedded Google Map */
