@@ -223,12 +223,14 @@ h1, h2, h3 {
 .example-work {
   margin: 1vh;
   box-shadow: 0 5px 10px #112027;
+  border-radius: 5px;
 }
 
 .example-work img {
   height: 100%;
   width: 100%;
   vertical-align: middle;
+  border-radius: 5px;
 }
 
 /* Services page style */
@@ -511,6 +513,7 @@ footer {
     flex: 50%;
     max-width: 46%;
     margin: 2vh 0;
+    border-radius: 5px;
   }
 
   /* Services page style */
@@ -663,6 +666,7 @@ footer {
     flex: 50%;
     max-width: 46%;
     margin: 1vh 0;
+    border-radius: 5px;
   }
 
   /* Services page style */
