@@ -58,7 +58,7 @@ A static website for a small-medium sized company specialising in car detailing.
 * Be accessible
 
 ### User Stories
-No. | As a | I want to | so that
+   | As a | I want to | so that
 --|-----|-----------|--------
 1 | new user | find the prices | I can decide if the services are affordable.
 2 | new user | find contact details | I can book my car to be cleaned.
