@@ -106,7 +106,10 @@ No. | As a | I want to | so that
 
 ## Style Tile
 
+<details>
+<summary>Style Tile Image</summary>
 <img src="documents/features/styletile.png" att="A style tile screenshot for the sites font and colour design">
+</details>
 
 ## Design choice
 
@@ -252,7 +255,7 @@ to get visual directions to where the company is located
 ### Features To Be Added
 * Booking system
 * JavaScript implementation for smoother user experience
-* Back end database requirements for form submission
+* Back end database requirements for form submission and customer information
 
 ## Technology Stack
 
@@ -265,6 +268,7 @@ to get visual directions to where the company is located
 * Gitpod
 * Github
 * Balsamiq Wireframes
+* Bootstrap v5.0
 * Chrome DevTools
 * Chrome Lighthouse
 * Google Fonts
@@ -274,10 +278,66 @@ to get visual directions to where the company is located
 ## Testing
 
 ### Validation
-Validation testing placeholder text
+
+#### HTML Validation
+To test and validate the HTML code of the website, the W3C Markup Validation Service was used, resulting in zero errors or warnings.
+See dropdowns below to view screenshots.
+<details>
+<summary>Home Page</summary>
+<img src="documents/validation/validation-home.png" alt="Home page validation image">
+</details>
+<details>
+<summary>About Page</summary>
+<img src="documents/validation/validation-about.png" alt="About page validation image">
+</details>
+<details>
+<summary>Services Page</summary>
+<img src="documents/validation/validation-services.png" alt="Services page validation image">
+</details>
+<details>
+<summary>Gallery Page</summary>
+<img src="documents/validation/validation-gallery.png" alt="Gallery page validation image">
+</details>
+<details>
+<summary>Contact Us Page</summary>
+<img src="documents/validation/validation-contact.png" alt="Contact Us page validation image">
+</details>
+
+#### CSS Validation
+To test and validate the CSS code of the website, the W3C CSS Validation Service was used, resulting in zero errors and zero warnings 
+to own code within the style.css. However, there were warnings relating to external Bootstrap v5.0 code used within the html files for the navigation bar.
+<details>
+<summary>Website CSS validation</summary>
+<img src="documents/validation/validation-websitecss.png" alt="CSS website validation image">
+</details>
+<details>
+<summary>style.css validation</summary>
+<img src="documents/validation/validation-stylecss.png" alt="CSS stylesheet validation image">
+</details>
 
 ### Performance
-Performance testing placeholder text
+In order to test the performance of the website, Google Lighthouse was used in the Google Chrome Developer Tools. Please see below dropdowns for screenshots
+<details>
+<summary>Home Page</summary>
+Mobile
+<img src="documents/validation/validation-.png" alt="">
+</details>
+<details>
+<summary>About Page</summary>
+<img src="documents/validation/validation-.png" alt="">
+</details>
+<details>
+<summary>Services Page</summary>
+<img src="documents/validation/validation-.png" alt="">
+</details>
+<details>
+<summary>Gallery Page</summary>
+<img src="documents/validation/validation-.png" alt="">
+</details>
+<details>
+<summary>Contact Us Page</summary>
+<img src="documents/validation/validation-.png" alt="">
+</details>
 
 ### Accessibility
 Accessibility testing placeholder text
