@@ -139,17 +139,17 @@ webaims accessibility evaluation tool. Please refer to the style tile above for 
 The website consists of 5 pages all of which have 3 features which appear consistently on each page.
 
 #### Navigation Bar
-<li>responsive to smaller screens with use of a hamburger menu toggler with dropdown to each page</li>
-<li># User Story referenced: 7, 18</li>
+* Responsive to smaller screens with use of a hamburger menu toggler with dropdown to each page, allows user to easily click to navigate rather than having small links squeezed into a tiny area
+* User Story referenced: 7, 18
 <img src="documents/features/navbar.png" alt="navigation bar screenshot">
 
 #### Hero Image
-<li>large image used to capture the users attention with 75% of the viewport to encourage scrolling</li>
+* Large image used to capture the users attention with 75% of the viewport to encourage scrolling
 <img src="documents/features/hero-section.png" alt="hero image screenshot">
 
 #### Footer
-<li>social media logos that links the user direct to social pages, accompanied with copyright message</li>
-<li># User Story referenced: 5</li>
+* Social media logos that links the user direct to social pages, accompanied with copyright message
+* User Story referenced: 5
 <img src="documents/features/footer.png" alt="footer screenshot">
 
 
@@ -158,95 +158,86 @@ The Home page consists of 3 features: bout summary, services tiles, booking form
 section of the website as a whole.
 
 #### About Summary
-<li>A brief description of the company and what they provide</li>
-<li>Read more button that links the user to the About Us page so they can read further information</li>
-<li># User Story referenced: 6, 17</li>
+* A brief description of the company and what they provide so the user can get an idea of the company
+* Read more button that links the user to the About Us page so they can read further information
+* User Story referenced: 6, 17
 <img src="documents/features/about-main.png" alt="a summary of the company and what they do">
 
 #### Services Tiles
-<li>Image tiles with text detailing each services provided</li>
-<li>Clickable links to take the user to the page and section of the service tile</li>
-<li># User Story referenced: 7, 8, 18</li>
+* Image tiles with text detailing each services provided, clear for the user to see when scrolling through the page
+* Clickable links to take the user to the page and section of the service tile
+* User Story referenced: 7, 8, 18
 <img src="documents/features/services-tiles.png" alt="four image tiles of the services provided by the company">
 
 #### Booking Form
-<li>A form where users can fill in their name, email and message to the site owner</li>
-<li>Required field attribute markers used so that customers do not miss required information off when submitting the form</li>
+* A form where users can fill in their name, email and message to the site owner
+* Required field attribute markers used so that customers do not miss required information off when submitting the form
+* User Story referenced: 12
 <img src="documents/features/main-booking.png" alt="booking form consisting of name, email and message box with button">
 
 ### About
 The About page consists of 4 features: who we are, what we offer, our work, booking button.
 
 #### Who We Are
-<li>A brief bio of the company owner and his history so that users can get an idea of the background of the company</li>
-<li>Profile picture so that users can put a face to name</li>
-<li># User Story referenced: 6, 17</li>
+* A brief bio of the company owner and his history so that users can get an idea of the background of the company
+* Profile picture so that users can put a face to name
+* User Story referenced: 6, 17
 <img src="documents/features/about-bio.png" alt="A screenshot detailing a short bio of the company owner and profile picture">
 
 #### What We Offer
-<li>Provides an opportunity for users to read a short description of what services the user can expect with a button to
-navigate directly to the services page
-</li>
-<li># User Story referenced: 7, 18</li>
+* Provides an opportunity for users to read a short description of what services the user can expect with a button to navigate directly to the services page
+* User Story referenced: 7, 18
 <img src="documents/features/about-service.png" alt="A screenshot showing a brief description of what is provided by the company">
 
 #### Our Work
-<li>Four image examples of the work that the company has completed giving the user an expectation on the quality of work provided</li>
-<li># User Story referenced: 3</li>
+* Four image examples of the work that the company has completed giving the user an expectation on the quality of work provided
+* User Story referenced: 3
 <img src="documents/features/about-work-examples.png" alt="A screenshot showing four image tiles of cars that the company has worked on">
 
 #### Booking Button
-<li>A simple button that users can click on to be taken to the contact us page to make a booking</li>
-<li># User Story referenced: 7, 12, 18</li>
+* A simple button that users can click on to be taken to the contact us page to make a booking
+* User Story referenced: 7, 12, 18
 <img src="documents/features/about-booking.png" alt="A dark button with white text 'Make a booking with us'">
 
 ### Services
 The Services page consists of 2 features: services information, accent booking section with button.
 
 #### Services Information
-<li>Four sections; basic valet, full valet, correction and conours. Allows the user to see further information about the different services 
-that are offered with their respective pricing for each. Images from home page used for familiarity and consistency.
-</li>
-<li># User Story referenced: 1, 8, 14</li>
+* Four sections; basic valet, full valet, correction and concours. Allows the user to see further information about the different services that are offered with their respective pricing for each. Images from home page used for familiarity and consistency
+* User Story referenced: 1, 8, 14
 <img src="documents/features/services-information.png" alt="Screenshot showing the services information">
 
 #### Accent Booking Section
-<li>Red accent to grab the users attention to prompt them to contact and make a booking with the company</li>
-<li># User Story referenced: 12</li>
+* Red accent to grab the users attention to prompt them to contact and make a booking with the company
+* User Story referenced: 12
 <img src="documents/features/services-accent.png" alt="Screenshot of a red accent box with message to prompt user to 'book now'">
 
 ### Gallery
 The Gallery page consists of 1 feature: portfolio.
 
 #### Portfolio
-<li>Allows the user to view a grid comprising of 4x4 images showing examples of previous work that the company has completed, so that the user
-can know what to expect.
-</li>
-<li># User Story referenced: 3, 16</li>
+* Allows the user to view a grid comprising of 4x4 images showing examples of previous work that the company has completed, so that the user can know what to expect
+* User Story referenced: 3, 16
 <img src="documents/features/gallery-grid.png" alt="Screenshot of an image gallery displayed in a 4x4 grid of example work">
 
 ### Contact Us
 The Contact Us page consists of 3 features: contact form, contact details, google map.
 
 #### Contact Form
-<li>A contact form which comprises of first and last name field, email field and message box. Allows the user to fill in their information in order 
-to send a message to the site owner for bookings or enquiries.
-</li>
-<li># User Story referenced: 11</li>
+* A contact form which comprises of first and last name field, email field and message box. Allows the user to fill in their information in order to send a message to the site owner for bookings or enquiries
+* User Story referenced: 11
 <img src="documents/features/contact-form.png" alt="Screenshot of a contact form for name, email and message box">
 
 #### Contact Details
-<li>Allows the users to view the address, email and telephone number of the company for contact</li>
-<li>A direction button linking the user to an external page for google directions from their current location</li>
-<li>Social media links directing users to the platform where the company has a social presence</li>
-<li># User Story referenced: 2, 4, 5, 9, 10, 13, 15</li>
+* Allows the users to view the address, email and telephone number of the company for contact
+* A direction button linking the user to an external page for google directions from their current location
+* Social media links directing users to the platform where the company has a social presence
+* User Story referenced: 2, 4, 5, 9, 10, 13, 15
 <img src="documents/features/contact-details.png" alt="Screenshot of the company address, contact details and social links">
 
 #### Google Map
-<li>Allows the users to view the company location on an embedded google map making the company easy to find and further opportunity
-to get visual directions to where the company is located
-</li>
-<li># User Story referenced: 4, 10, 13</li>
+* Allows the users to view the company location on an embedded google map making the company easy to find and further opportunity to get visual directions to where the company is located
+* User Story referenced: 4, 10, 13
 <img src="documents/features/contact-map.png" alt="Screenshot of an embedded google map showing the company location">
 
 ## Future Scope
@@ -365,17 +356,18 @@ which ensures that the website is of a high standard in terms of accessibility. 
 ### Compatibility
 The website and all it's pages were tested using Google Chrome Developer Tools using the device emulation tool.
 Additionaly, the website was also compatibiliy tested on the following various physical devices:
-<li>iphone SE 2020</li>
-<li>iphone 12</li>
-<li>Huawei Mate 20 Pro</li>
-<li>Samsung Galaxy S20</li>
-<li>Samsung Galaxy S7 Tab</li>
-<li>iPad Pro</li>\  
+* iphone SE 2020
+* iphone 12
+* Huawei Mate 20 Pro
+* Samsung Galaxy S20
+* Samsung Galaxy S7 Tab
+* iPad Pro  
   
 The following browsers were used during the testing process:
-<li>Google Chrome</li>
-<li>Apple Safari</li>
-<li>Microsoft Edge</li>
+* Google Chrome
+* Apple Safari
+* Microsoft Edge
+* Mozilla Firefox
 
 ### User Stories Testing
 User Stories testing placeholder text
@@ -391,36 +383,25 @@ Hero image overlay text is appearing at the bottom margin on small screen device
 ## Credits
 
 ### External Code
-<li>HTML code copied from the Bootstrap v5.0 documentation snippet for the Navbar and was amended as required to be suitable to the website theme</li>
-https://getbootstrap.com/docs/5.0/components/navbar
-<li>CSS code taken and inspired from the W3 Schools tutorial on how to create a responsive image grid</li>
-https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
+* HTML code copied from the Bootstrap v5.0 documentation snippet for the Navbar and was amended as required to be suitable to the website theme https://getbootstrap.com/docs/5.0/components/navbar
+* CSS code taken and inspired from the W3 Schools tutorial on how to create a responsive image grid https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
 
 ### Assets Used
-The following external images were used for the Hero Images at the top of each page:
-<li>Home page hero image - Photo by <a href="https://unsplash.com/@profepix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yuriy Bogdanov</a> on <a href="https://unsplash.com/collections/kUcCMU2Gvyc/website/8d782ec0fef6b663aedb36a3054c8fbd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</li>
-<li>About page image - Photo by 
+The following external images were used for the Hero Images at the top of each page as well as the services image tiles:
+* [Home page hero image](assets/img/hero-image.jpg) - Photo by <a href="https://unsplash.com/@profepix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yuriy Bogdanov</a> on <a href="https://unsplash.com/collections/kUcCMU2Gvyc/website/8d782ec0fef6b663aedb36a3054c8fbd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [About page hero image](assets/img/about-hero.jpg) - Photo by 
 <a href="https://unsplash.com/@eriksolsen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Erik Olsen</a> on <a href="https://unsplash.com/collections/kUcCMU2Gvyc/website/8d782ec0fef6b663aedb36a3054c8fbd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</li>
-<li>Services page hero image - Photo by <a href="https://unsplash.com/@vicfurtuna?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Victor Furtuna</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</li>
-<li>Gallery page hero image - Photo by <a href="https://unsplash.com/@kahlorr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kahl Orr</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</li>
-<li>Contact Us page hero image - Photo by <a href="https://unsplash.com/@samuele_piccarini?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Samuele Errico Piccarini</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
-</li>
-<li>Basic Valet image - Photo by <a href="https://unsplash.com/@dascal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adrian Dascal</a> on <a href="https://unsplash.com/collections/kUcCMU2Gvyc/website/8d782ec0fef6b663aedb36a3054c8fbd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</li>
-<li>Full Valet image - Photo by <a href="https://unsplash.com/@andredantan19?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andre Tan</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</li>
-<li>Correction image - Photo by <a href="https://unsplash.com/@neelabh_raj?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Neelabh Raj</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</li>
-<li>Concours image - Photo by <a href="https://unsplash.com/@valdemaras?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Valdemaras Januška</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</li>
+* [Services page hero image](assets/img/services-hero.jpg) - Photo by <a href="https://unsplash.com/@vicfurtuna?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Victor Furtuna</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [Gallery page hero image](assets/img/gallery-hero.jpg) - Photo by <a href="https://unsplash.com/@kahlorr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kahl Orr</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [Contact Us page hero image](assets/img/contact-hero.jpg) - Photo by <a href="https://unsplash.com/@samuele_piccarini?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Samuele Errico Piccarini</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
+* [Basic Valet image](assets/img/basic-valet.jpg) - Photo by <a href="https://unsplash.com/@dascal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adrian Dascal</a> on <a href="https://unsplash.com/collections/kUcCMU2Gvyc/website/8d782ec0fef6b663aedb36a3054c8fbd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [Full Valet image](assets/img/full-valet.jpg) - Photo by <a href="https://unsplash.com/@andredantan19?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andre Tan</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [Correction image](assets/img/paint-correction.jpg) - Photo by <a href="https://unsplash.com/@neelabh_raj?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Neelabh Raj</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* [Concours image](assets/img/concours.jpg) - Photo by <a href="https://unsplash.com/@valdemaras?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Valdemaras Januška</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 ## Acknowledgements
 I would like to take a moment to give my thanks:
-<li>My sincerest gratitude to Karen who has given me endless encouragement and support throughout</li>
-<li>My friend Ollie whos business I have had the privilege of designing and creating a website for</li>
-<li>My mentor Mo Shami for his time, guidance and feedback during our meetings</li>
-<li>The support received by my cohort at Code Institute on slack, at times I was feeling frustrated and disheartened</li>
+* My sincerest gratitude to Karen who has given me endless encouragement and support throughout
+* My friend Ollie whos business I have had the privilege of designing and creating the website for
+* My mentor Mo Shami for his time, guidance and feedback during our meetings
+* The support received by my cohort at Code Institute on slack, at times I was feeling frustrated and disheartened
