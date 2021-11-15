@@ -370,8 +370,8 @@ Additionaly, the website was also compatibiliy tested on the following various p
 <li>Huawei Mate 20 Pro</li>
 <li>Samsung Galaxy S20</li>
 <li>Samsung Galaxy S7 Tab</li>
-<li>iPad Pro</li>
-
+<li>iPad Pro</li>\  
+  
 The following browsers were used during the testing process:
 <li>Google Chrome</li>
 <li>Apple Safari</li>
@@ -398,12 +398,10 @@ https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
 
 ### Assets Used
 The following external images were used for the Hero Images at the top of each page:
+<li>Home page hero image - Photo by <a href="https://unsplash.com/@profepix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yuriy Bogdanov</a> on <a href="https://unsplash.com/collections/kUcCMU2Gvyc/website/8d782ec0fef6b663aedb36a3054c8fbd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</li>
 <li>About page image - Photo by 
 <a href="https://unsplash.com/@eriksolsen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Erik Olsen</a> on <a href="https://unsplash.com/collections/kUcCMU2Gvyc/website/8d782ec0fef6b663aedb36a3054c8fbd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</li>
-<li>Basic Valet image - Photo by <a href="https://unsplash.com/@dascal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adrian Dascal</a> on <a href="https://unsplash.com/collections/kUcCMU2Gvyc/website/8d782ec0fef6b663aedb36a3054c8fbd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</li>
-<li>Home page hero image - Photo by <a href="https://unsplash.com/@profepix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yuriy Bogdanov</a> on <a href="https://unsplash.com/collections/kUcCMU2Gvyc/website/8d782ec0fef6b663aedb36a3054c8fbd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </li>
 <li>Services page hero image - Photo by <a href="https://unsplash.com/@vicfurtuna?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Victor Furtuna</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </li>
@@ -411,11 +409,13 @@ The following external images were used for the Hero Images at the top of each p
 </li>
 <li>Contact Us page hero image - Photo by <a href="https://unsplash.com/@samuele_piccarini?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Samuele Errico Piccarini</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
 </li>
-<li>Concours image - Photo by <a href="https://unsplash.com/@valdemaras?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Valdemaras Januška</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+<li>Basic Valet image - Photo by <a href="https://unsplash.com/@dascal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adrian Dascal</a> on <a href="https://unsplash.com/collections/kUcCMU2Gvyc/website/8d782ec0fef6b663aedb36a3054c8fbd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</li>
+<li>Full Valet image - Photo by <a href="https://unsplash.com/@andredantan19?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andre Tan</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </li>
 <li>Correction image - Photo by <a href="https://unsplash.com/@neelabh_raj?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Neelabh Raj</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </li>
-<li>Full Valet image - Photo by <a href="https://unsplash.com/@andredantan19?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andre Tan</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+<li>Concours image - Photo by <a href="https://unsplash.com/@valdemaras?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Valdemaras Januška</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </li>
 
 ## Acknowledgements
