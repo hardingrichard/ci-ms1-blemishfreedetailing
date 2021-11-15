@@ -279,6 +279,7 @@ The Contact Us page consists of 3 features: contact form, contact details, googl
 * Google Fonts
 * Font Awesome
 * Unsplash
+* Procreate
 
 ## Testing
 
