@@ -35,10 +35,14 @@ A static website for a small-medium sized company specialising in car detailing.
     4. [Compatibility](#compatibility)
     5. [User Stories Testing](#user-stories-testing)
 8. [Bugs And Fix](#bugs-and-fixes)
-9. [Credits](#credits)
+9. [Deployment And Version Control](#deployment-and-version-control)
+    1. [Deployment](#deployment)
+    2. [Cloning](#cloning)
+    3. [Version Control](#version-control)
+10. [Credits](#credits)
     1. [External Code](#external-code)
     2. [Assets Used](#assets-used)
-10. [Acknowledgements](#acknowledgements)
+11. [Acknowledgements](#acknowledgements)
 
 ## Key Project Goals
 
@@ -142,13 +146,7 @@ The font Rubik was used for the brand name in the navbar to distinguish apart fr
 whilst still maintaining a degree of consistency.
 
 ### Colours
-The colour scheme of blues, oranges and red were used for the website, blues were used to convey trust which will increase
-the user confidence in navigating the website as well as having a calming affect on the user. The combination of white
-and blues together is also dyslexia friendly. Oranges are associated with confidence and optimism and was used for the headers
-against a dark background. The red was introduced for accent colours such as clickable links when hovering over and also the 
-background for a booking box to grab the users attention after having browsed the services on offer. The colours chosen
-are mindful of having enough contrast ratio between one another for accessibility and visual impairment, all being tested with 
-webaims accessibility evaluation tool. Please refer to the style tile above for the mentioned theming. 
+The colour scheme of blues, oranges and red were used for the website, blues were used to convey trust which will increase the user confidence in navigating the website as well as having a calming affect on the user. The combination of white and blues together is also dyslexia friendly. Oranges are associated with confidence and optimism and was used for the headers against a dark background. The red was introduced for accent colours such as clickable links when hovering over and also the background for a booking box to grab the users attention after having browsed the services on offer. The colours chosen are mindful of having enough contrast ratio between one another for accessibility and visual impairment, all being tested with WebAims accessibility evaluation tool. Please refer to the [Style Tile](#style-tile) above for the mentioned colours and theming. 
 
 ## Site Features
 
@@ -168,7 +166,6 @@ The website consists of 5 pages all of which have 3 features which appear consis
 * Social media logos that links the user direct to social pages, accompanied with copyright message
 * User Story referenced: 5
 <img src="documents/features/footer.png" alt="footer screenshot">
-
 
 ### Home
 The Home page consists of 3 features: bout summary, services tiles, booking form. This page acts as a summary 
@@ -272,12 +269,13 @@ The Contact Us page consists of 3 features: contact form, contact details, googl
 
 ### Frameworks And Tools
 * Git
-* Gitpod
-* Github
-* Balsamiq Wireframes
+* GitPod
+* GitHub
 * Bootstrap v5.0
 * Chrome DevTools
 * Chrome Lighthouse
+* Balsamiq Wireframes
+* Colormind colour pallette demo
 * Google Fonts
 * Font Awesome
 * Unsplash
@@ -369,10 +367,8 @@ which ensures that the website is of a high standard in terms of accessibility. 
 <img src="documents/validation/accessibility-contact.png" alt="A screenshot showing the Contact Us page accessibility validation with WebAIM evaluation tool">
 </details>
 
-
 ### Compatibility
-The website and all it's pages were tested using Google Chrome Developer Tools using the device emulation tool.
-Additionaly, the website was also compatibiliy tested on the following various physical devices:
+The website and all it's pages were tested using Google Chrome Developer Tools using the device emulation tool. Additionaly, the website was also compatibiliy tested on the following various physical devices:
 * iphone SE 2020
 * iphone 12
 * Huawei Mate 20 Pro
@@ -396,6 +392,29 @@ Unable to get the navbar toggler to collapse on small screens | Hadn't included 
 Body font would not update with Noto Sans due to Bootstrap styling overriding | CSS style sheet link positioned below the bootstrap style link to override bootstrap styling
 Navbar CSS styling wasn't carrying over to the other pages of the website | Updated the code across pages with an amended class for the nav
 Hero image overlay text is appearing at the bottom margin on small screen devices but is appearing fine in Google Dev Tools | Removed margins and object-position to center.
+
+## Deployment And Version Control
+
+### Deployment
+GitHub Pages was used in order to deploy the live version of the website. This was done by completing the following:
+1. Locate and click on the Settings tab within the repository
+2. From here on the left hand side go down and click Pages
+3. The GitHub Pages page will be displayed, locate the Source and set the branch to main
+4. If this has been completed successfully then a message will be displayed at the top with a green check "Your site is published at https://hardingrichard.github.io/ci-ms1-blemishfreedetailing/"  
+  
+[Click Here](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) for further guidance and instructions on how to deploy yours.
+
+### Cloning
+If you wish to clone the repository you can do so by [clicking here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or completing the following:
+1. Locate and click on the Code button at the top of the directory within the GitHub repository
+2. This will dropdown the option of HTTPS, SSH and GitHub CLI and the option to open with GitHub Desktop or Download ZIP. Choose the option you prefer and click the copy to clipboard button
+3. Open the Git bash terminal
+4. Choose the working directory location to where you wish to have the cloned directory.
+5. Type "git clone" followed by pasting the URL you copied in step 2.
+6. Press Enter to complete and create your local clone.
+
+### Version Control
+[Click here](https://github.com/hardingrichard/ci-ms1-blemishfreedetailing/commits/main) to explore the history of the creation process and see what the website looked at different points in time and what changes were made. Regular commits were made in order to make it easier to view the thought process during the creation of the website and readme and also have saved back up points to avoid loss of work in case of any serious malfunctions.
 
 ## Credits
 
