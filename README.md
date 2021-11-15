@@ -79,7 +79,7 @@ A static website for a small-medium sized company specialising in car detailing.
 
 ### User Stories
 No. | As a | I want to | so that
---|-----|-----------|--------
+----|------|-----------|--------
 1 | new user | find the prices | I can decide if the services are affordable.
 2 | new user | find contact details | I can book my car to be cleaned.
 3 | new user | see photos of past projects | I can see the level of quality of the services.
@@ -90,7 +90,7 @@ No. | As a | I want to | so that
 8 | returning user | see what services are offered | I can decide which best suits my needs.
 9 | returning user | see the contact number | I can make a booking.
 10 | returning user | find directions to the company | I can drop my car off for cleaning.
-11 | returning user | be able to leave a message | they can get back to me at a later date.
+11 | returning user | be able to leave a message | the company can get back to me at a later date.
 12 | returning user | easily book my car | can have it cleaned.
 13 | site owner | have the company location displayed | customers can easily find and get directions.
 14 | site owner | detail the prices for services | customers know how much each service will cost them.
@@ -369,8 +369,8 @@ which ensures that the website is of a high standard in terms of accessibility. 
 
 ### Compatibility
 The website and all it's pages were tested using Google Chrome Developer Tools using the device emulation tool. Additionaly, the website was also compatibiliy tested on the following various physical devices:
-* iphone SE 2020
-* iphone 12
+* iPhone SE 2020
+* iPhone 12
 * Huawei Mate 20 Pro
 * Samsung Galaxy S20
 * Samsung Galaxy S7 Tab
@@ -383,7 +383,238 @@ The following browsers were used during the testing process:
 * Mozilla Firefox
 
 ### User Stories Testing
-User Stories testing placeholder text
+Testing and screenshots of the User Stories identified towards the top of the README are as follows:
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  1 | new user | find the prices | I can decide if the services are affordable.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+Services | Navigate to the services page in the Navbar or clicking on the image tiles on main page | Can see the pricing for each level of service | Worked as intended
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/user-stories/user-story-1-14.png">
+</details>  
+<br>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  2 | new user | find contact details | I can book my car to be cleaned.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+Contact Details | Navigate to the contact us page by clicking in navbar then scrolling down to contact details section | Can see the address, email and telephone number displayed clearly | Worked as intended
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/user-stories/user-story-2-15.png">
+</details>
+<br>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  3 | new user | see photos of past projects | I can see the level of quality of the services.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+Our Work | Navigate to About page and scroll down to Our Work section | Can see 4 example images of cars the company has worked on | Worked as intended
+Portfolio | Navigate to the Gallery page and scroll down to the Portfolio | Can see a 4x4 grid of 16 total images showing a variety of examples of cars worked on | Worked as intended
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/user-stories/user-story-3-i.png">
+<img src="documents/user-stories/user-story-3-ii.png">
+</details>
+<br>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  4 | new user | see where the company is located | I can see if they're local to me.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+Get Directions button | Navigate to Contact Us page and scroll down to click on Get Directions | Clicking button directs you to google maps and directions for sat-nav purposes | Worked as intended
+Google Embeded Map | Navigate to Contact Us page and scroll down to the Where To Find Us section | Can see a large and clear map with a red pin marking the company location on the map | Worked as intended 
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/user-stories/user-story-4-10-13.png">
+</details>
+<br>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  5 | new user | check the company has a social media presence | verify the company is genuine and see what else they are up to.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+Footer Social Media Links | Scroll down from the current page to the footer and click orange logos | Clicking the orange logos opens a new tab to the required social platform | Worked as intended but social profiles not yet set up. Pending
+Contact Us Social Media Links | Navigate to Contact Us page and scroll down to Contact Details, under the contact details the social media logos are displayed | Clicking the orange logos opens a new tab to the required social platform | Worked as intended but social profiles not yet set up. Pending
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/user-stories/user-story-5i.png">
+<img src="documents/user-stories/user-story-5ii.png">
+</details>
+<br>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  6 | new user | know more about the company | I can see how long they have been trading and have confidence using them.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/" alt="">
+</details>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  7 | new user | easily navigate the website | I can go straight to the page i need.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/" alt="">
+</details>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  8 | returning user | see what services are offered | I can decide which best suits my needs.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/" alt="">
+</details>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  9 | returning user | see the contact number | I can make a booking.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/" alt="">
+</details>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  10 | returning user | find directions to the company | I can drop my car off for cleaning.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/" alt="">
+</details>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  11 | returning user | be able to leave a message | they can get back to me at a later date.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/" alt="">
+</details>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  12 | returning user | easily book my car | can have it cleaned.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/" alt="">
+</details>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  13 | site owner | have the company location displayed | customers can easily find and get directions.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/" alt="">
+</details>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  14 | site owner | detail the prices for services | customers know how much each service will cost them.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/" alt="">
+</details>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  15 | site owner | have contact information displayed | customers can get in contact.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/" alt="">
+</details>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  16 | site owner | have a gallery page | potential customers can see past work.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/" alt="">
+</details>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  17 | site owner | information about the company | I can build customer trust in the company.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/" alt="">
+</details>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  18 | site owner | have a simple and navigatable website | customers are able to easily find the information they are after.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/" alt="">
+</details>
 
 ## Bugs And Fix
 Known Bugs | Fix
@@ -437,7 +668,7 @@ The following external images were used for the Hero Images at the top of each p
 ## Acknowledgements
 I would like to take a moment to give my thanks:
 * My sincerest gratitude to Karen who has given me endless encouragement and support throughout
-* My parents for testing the site as first time users to see if they found it intuitive
-* My friend Ollie whos business I have had the privilege of designing and creating the website for
+* My parents and friends for testing the site as first time users to see if they found it intuitive
+* Ollie whos business I have had the privilege of designing and creating the website for
 * My mentor Mo Shami for his time, guidance and feedback during our meetings
 * The support received by my cohort at Code Institute on slack, at times I was feeling frustrated and disheartened
