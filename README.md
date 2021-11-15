@@ -319,24 +319,23 @@ to own code within the style.css. However, there were warnings relating to exter
 In order to test the performance of the website, Google Lighthouse was used in the Google Chrome Developer Tools. Please see below dropdowns for screenshots
 <details>
 <summary>Home Page</summary>
-Mobile
-<img src="documents/validation/validation-.png" alt="">
+<img src="documents/validation/lighthouse-home.png" alt="A screenshot showing the home page performance test with Google Lighthouse in Google Dev Tools">
 </details>
 <details>
 <summary>About Page</summary>
-<img src="documents/validation/validation-.png" alt="">
+<img src="documents/validation/lighthouse-about.png" alt="A screenshot showing the about page performance test with Google Lighthouse in Google Dev Tools">
 </details>
 <details>
 <summary>Services Page</summary>
-<img src="documents/validation/validation-.png" alt="">
+<img src="documents/validation/lighthouse-services.png" alt="A screenshot showing the services page performance test with Google Lighthouse in Google Dev Tools">
 </details>
 <details>
 <summary>Gallery Page</summary>
-<img src="documents/validation/validation-.png" alt="">
+<img src="documents/validation/lighthouse-gallery.png" alt="A screenshot showing the gallery performance test with Google Lighthouse in Google Dev Tools">
 </details>
 <details>
 <summary>Contact Us Page</summary>
-<img src="documents/validation/validation-.png" alt="">
+<img src="documents/validation/lighthouse-contact.png" alt="A screenshot showing the contact us page performance test with Google Lighthouse in Google Dev Tools">
 </details>
 
 ### Accessibility
