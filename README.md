@@ -398,7 +398,7 @@ https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
 
 ### Assets Used
 The following external images were used for the Hero Images at the top of each page:
-<li>[About page hero image] (assets/img/about-hero.jpg) Photo by 
+<li>About page image - Photo by 
 <a href="https://unsplash.com/@eriksolsen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Erik Olsen</a> on <a href="https://unsplash.com/collections/kUcCMU2Gvyc/website/8d782ec0fef6b663aedb36a3054c8fbd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </li>
 <li>Basic Valet image - Photo by <a href="https://unsplash.com/@dascal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adrian Dascal</a> on <a href="https://unsplash.com/collections/kUcCMU2Gvyc/website/8d782ec0fef6b663aedb36a3054c8fbd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
