@@ -36,7 +36,6 @@ A static website for a small-medium sized company specialising in car detailing.
     1. [External Code](#external-code)
     2. [Assets Used](#assets-used)
 9. [Acknowledgements](#acknowledgements)
-10. [License](#license)
 
 ## Information Gathering
 
@@ -384,19 +383,44 @@ User Stories testing placeholder text
 ## Bugs And Fix
 Known Bugs | Fix
 -----------|-----
-Bug placeholder text 1 | Fix information placeholder text 1
-Bug placeholder text 2 | Fix information placeholder text 2
+Unable to get the navbar toggler to collapse on small screens | Hadn't included the cached JavaScript link to get script to run for intended behaviour
+Body font would not update with Noto Sans due to Bootstrap styling overriding | CSS style sheet link positioned below the bootstrap style link to override bootstrap styling
+Navbar CSS styling wasn't carrying over to the other pages of the website | Updated the code across pages with an amended class for the nav
+Hero image overlay text is appearing at the bottom margin on small screen devices but is appearing fine in Google Dev Tools | Removed margins and object-position to center.
 
 ## Credits
 
 ### External Code
-Placeholder text for external code used from guides/tutorials
+<li>HTML code copied from the Bootstrap v5.0 documentation snippet for the Navbar and was amended as required to be suitable to the website theme</li>
+https://getbootstrap.com/docs/5.0/components/navbar
+<li>CSS code taken and inspired from the W3 Schools tutorial on how to create a responsive image grid</li>
+https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
 
 ### Assets Used
-Placeholder text for images and media used
+The following external images were used for the Hero Images at the top of each page:
+<li>[About page hero image] (assets/img/about-hero.jpg) Photo by 
+<a href="https://unsplash.com/@eriksolsen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Erik Olsen</a> on <a href="https://unsplash.com/collections/kUcCMU2Gvyc/website/8d782ec0fef6b663aedb36a3054c8fbd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</li>
+<li>Basic Valet image - Photo by <a href="https://unsplash.com/@dascal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adrian Dascal</a> on <a href="https://unsplash.com/collections/kUcCMU2Gvyc/website/8d782ec0fef6b663aedb36a3054c8fbd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</li>
+<li>Home page hero image - Photo by <a href="https://unsplash.com/@profepix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yuriy Bogdanov</a> on <a href="https://unsplash.com/collections/kUcCMU2Gvyc/website/8d782ec0fef6b663aedb36a3054c8fbd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</li>
+<li>Services page hero image - Photo by <a href="https://unsplash.com/@vicfurtuna?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Victor Furtuna</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</li>
+<li>Gallery page hero image - Photo by <a href="https://unsplash.com/@kahlorr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kahl Orr</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</li>
+<li>Contact Us page hero image - Photo by <a href="https://unsplash.com/@samuele_piccarini?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Samuele Errico Piccarini</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
+</li>
+<li>Concours image - Photo by <a href="https://unsplash.com/@valdemaras?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Valdemaras Januška</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</li>
+<li>Correction image - Photo by <a href="https://unsplash.com/@neelabh_raj?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Neelabh Raj</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</li>
+<li>Full Valet image - Photo by <a href="https://unsplash.com/@andredantan19?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andre Tan</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</li>
 
 ## Acknowledgements
-Placeholder text for special thanks to those that helped and supported
-
-## License
-Placeholder text where License information will be linked
+I would like to take a moment to give my thanks:
+<li>My sincerest gratitude to Karen who has given me endless encouragement and support throughout</li>
+<li>My friend Ollie whos business I have had the privilege of designing and creating a website for</li>
+<li>My mentor Mo Shami for his time, guidance and feedback during our meetings</li>
+<li>The support received by my cohort at Code Institute on slack, at times I was feeling frustrated and disheartened</li>
