@@ -339,10 +339,44 @@ In order to test the performance of the website, Google Lighthouse was used in t
 </details>
 
 ### Accessibility
-Accessibility testing placeholder text
+To validate the accessibility of the website, the WAVE powered by WebAIM web accessibility evaluation tool was used. There were zero errors presented
+which ensures that the website is of a high standard in terms of accessibility. Please see below dropdowns for screenshots.
+<details>
+<summary>Home Page</summary>
+<img src="documents/validation/accessibility-home.png" alt="A screenshot showing the home page accessibility validation with WebAIM evaluation tool">
+</details>
+<details>
+<summary>About Page</summary>
+<img src="documents/validation/accessibility-about.png" alt="A screenshot showing the about page accessibility validation with WebAIM evaluation tool">
+</details>
+<details>
+<summary>Services Page</summary>
+<img src="documents/validation/accessibility-services.png" alt="A screenshot showing the services page accessibility validation with WebAIM evaluation tool">
+</details>
+<details>
+<summary>Gallery Page</summary>
+<img src="documents/validation/accessibility-gallery.png" alt="A screenshot showing the gallery page accessibility validation with WebAIM evaluation tool">
+</details>
+<details>
+<summary>Contact Us Page</summary>
+<img src="documents/validation/accessibility-contact.png" alt="A screenshot showing the Contact Us page accessibility validation with WebAIM evaluation tool">
+</details>
+
 
 ### Compatibility
-Compatibility testing placeholder text
+The website and all it's pages were tested using Google Chrome Developer Tools using the device emulation tool.
+Additionaly, the website was also compatibiliy tested on the following various physical devices:
+<li>iphone SE 2020</li>
+<li>iphone 12</li>
+<li>Huawei Mate 20 Pro</li>
+<li>Samsung Galaxy S20</li>
+<li>Samsung Galaxy S7 Tab</li>
+<li>iPad Pro</li>
+
+The following browsers were used during the testing process:
+<li>Google Chrome</li>
+<li>Apple Safari</li>
+<li>Microsoft Edge</li>
 
 ### User Stories Testing
 User Stories testing placeholder text
