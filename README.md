@@ -466,11 +466,13 @@ Contact Us Social Media Links | Navigate to Contact Us page and scroll down to C
 
 Site Feature | Path of Action | Outcome | Testing Result
 -------------|----------------|---------|----------------
+Who We Are | Navigate to About page and scroll down to Who We Are sections | Can see a paragraph about the owner of the company, easy to read giving information about the history and a profile picture of the owner giving a personable experience | Worked as intended
 
 <details>
 <summary>See Screenshots</summary>
-<img src="documents/" alt="">
+<img src="documents/user-stories/user-story-6-17.png">
 </details>
+<br>
 
 >  No. | As a | I want to | so that
 >  ----|------|-----------|--------
@@ -478,11 +480,14 @@ Site Feature | Path of Action | Outcome | Testing Result
 
 Site Feature | Path of Action | Outcome | Testing Result
 -------------|----------------|---------|----------------
+Navbar | Use navigation bar at top to go to desired page | Clicking on one of the navigation links directs to the relevant page. Clicking the brand name quick directs back to the homepage | Worked as intended
+Image tiles and buttons | Scroll down from home page to read more button or scroll further to services image tiles | Clicking on the read more button navigates to the About Us page for further information about the company. Clicking on each Service image tile navigates directly to the coresponding service type on the Services page, making it easy and efficient to get to the required information | Worked as intended
 
 <details>
 <summary>See Screenshots</summary>
-<img src="documents/" alt="">
+<img src="documents/user-stories/user-story-7-18.png">
 </details>
+<br>
 
 >  No. | As a | I want to | so that
 >  ----|------|-----------|--------
@@ -490,11 +495,16 @@ Site Feature | Path of Action | Outcome | Testing Result
 
 Site Feature | Path of Action | Outcome | Testing Result
 -------------|----------------|---------|----------------
+Service image tiles | Scroll down from top of home page past the About section to the images section | 4 images displayed with overlayed text with the titles of what each image is in relation to. Clicking the image or text navigates directly to the corresponding service type | Worked as intended
+Services We Provide | Navigate to services page and scroll down past hero image to Basic Valet, Full Valet, Correction and Concours | Each service type is sectioned in its own box making it easy to read and distinguish between the service types and what each includes | Worked as intended
 
 <details>
 <summary>See Screenshots</summary>
-<img src="documents/" alt="">
+<img src="documents/user-stories/user-story-8i.png">
+<img src="documents/user-stories/user-story-8ii.png">
 </details>
+<br>
+
 
 >  No. | As a | I want to | so that
 >  ----|------|-----------|--------
@@ -502,11 +512,13 @@ Site Feature | Path of Action | Outcome | Testing Result
 
 Site Feature | Path of Action | Outcome | Testing Result
 -------------|----------------|---------|----------------
+Contact details | Navigate to Contact Us page via navbar, scroll down to contact details section | Easy to find with the contact number displayed under the email address in a logical position and is clickable to bring up the call app on the users device so that they don't have to manually enter the number | Worked as intended
 
 <details>
 <summary>See Screenshots</summary>
-<img src="documents/" alt="">
+<img src="documents/user-stories/user-story-9.png">
 </details>
+<br>
 
 >  No. | As a | I want to | so that
 >  ----|------|-----------|--------
@@ -514,11 +526,14 @@ Site Feature | Path of Action | Outcome | Testing Result
 
 Site Feature | Path of Action | Outcome | Testing Result
 -------------|----------------|---------|----------------
+Get Directions button | Navigate to Contact Us page and scroll down to click on Get Directions | Clicking button directs you to google maps and directions for sat-nav purposes | Worked as intended
+Google Embeded Map | Navigate to Contact Us page and scroll down to the Where To Find Us section | Can see a large and clear map with a red pin marking the company location on the map | Worked as intended 
 
 <details>
 <summary>See Screenshots</summary>
-<img src="documents/" alt="">
+<img src="documents/user-stories/user-story-4-10-13.png">
 </details>
+<br>
 
 >  No. | As a | I want to | so that
 >  ----|------|-----------|--------
@@ -526,11 +541,16 @@ Site Feature | Path of Action | Outcome | Testing Result
 
 Site Feature | Path of Action | Outcome | Testing Result
 -------------|----------------|---------|----------------
+Request A Booking | Scroll down from home page to the bottom of the page to the Request A Booking section | Conveniently located on the homepage simple interface requiring first and last name, email address and an opportunity to type a message. Clicking the submit button sends the form | Worked as intended
+Get In Touch | Navigate to the Contact Us page and scroll down to the Get In Touch section | Simple form requiring first and last name, email ddress and an opportunity to type message with resizable box, clicking the submit button sends the form | Worked as intended
+Contact Details | Navigate to the Contact Us page and scroll down to the Contact Details section | Email address clearly displayed, clicking brings up the email app to be able to send an email from personal email address. Telephone number is clearly displayed under email address, clicking brings up the call app on device to be able to call the site owner without having to manually enter the numbers avoiding type in errors | Worked as intended
 
 <details>
 <summary>See Screenshots</summary>
-<img src="documents/" alt="">
+<img src="documents/user-stories/user-story-11-12i.png">
+<img src="documents/user-stories/user-story-11-12ii.png">
 </details>
+<br>
 
 >  No. | As a | I want to | so that
 >  ----|------|-----------|--------
@@ -538,11 +558,16 @@ Site Feature | Path of Action | Outcome | Testing Result
 
 Site Feature | Path of Action | Outcome | Testing Result
 -------------|----------------|---------|----------------
+Request A Booking | Scroll down from home page to the bottom of the page to the Request A Booking section | Conveniently located on the homepage simple interface requiring first and last name, email address and an opportunity to type a message. Clicking the submit button sends the form | Worked as intended
+Get In Touch | Navigate to the Contact Us page and scroll down to the Get In Touch section | Simple form requiring first and last name, email ddress and an opportunity to type message with resizable box, clicking the submit button sends the form | Worked as intended
+Contact Details | Navigate to the Contact Us page and scroll down to the Contact Details section | Email address clearly displayed, clicking brings up the email app to be able to send an email from personal email address. Telephone number is clearly displayed under email address, clicking brings up the call app on device to be able to call the site owner without having to manually enter the numbers avoiding type in errors | Worked as intended
 
 <details>
 <summary>See Screenshots</summary>
-<img src="documents/" alt="">
+<img src="documents/user-stories/user-story-11-12i.png">
+<img src="documents/user-stories/user-story-11-12ii.png">
 </details>
+<br>
 
 >  No. | As a | I want to | so that
 >  ----|------|-----------|--------
