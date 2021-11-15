@@ -6,36 +6,53 @@ A static website for a small-medium sized company specialising in car detailing.
 
 ## Table Of Contents
 
-1. [Information Gathering](#information-gathering)
+1. [Key Project Goals](#key-project-goals)
+    1. [Site Owner Goals](#site-owner-goals)
+    2. [User Goals](#user-goals)
+2. [Information Gathering](#information-gathering)
     1. [Target Audience](#target-audience)
     2. [User Requirements](#user-requirements)
     3. [User Stories](#user-stories)
-2. [Site Design](#site-design)
+3. [Site Design](#site-design)
     1. [Wireframes](#wireframes)
     2. [Style Tile](#style-tile)
     3. [Design choice](#design-choice)
-3. [Site Features](#site-features)
+4. [Site Features](#site-features)
     1. [global](#global)
     2. [Home](#home)
     3. [About](#about)
     4. [Services](#services)
     5. [Gallery](#gallery)
     6. [Contact Us](#contact-us)
-4. [Future Scope](#future-scope)
-5. [Technology Stack](#technology-stack)
+5. [Future Scope](#future-scope)
+6. [Technology Stack](#technology-stack)
     1. [Languages](#languages)
     2. [Frameworks And Tools](#frameworks-and-tools)
-6. [Testing](#testing)
+7. [Testing](#testing)
     1. [Validation](#validation)
     2. [Performance](#performance)
     3. [Accessibility](#accessibility)
     4. [Compatibility](#compatibility)
     5. [User Stories Testing](#user-stories-testing)
-7. [Bugs And Fix](#bugs-and-fixes)
-8. [Credits](#credits)
+8. [Bugs And Fix](#bugs-and-fixes)
+9. [Credits](#credits)
     1. [External Code](#external-code)
     2. [Assets Used](#assets-used)
-9. [Acknowledgements](#acknowledgements)
+10. [Acknowledgements](#acknowledgements)
+
+## Key Project Goals
+
+### Site Owner Goals
+* Increase brand awareness
+* Provide information to customers about the business
+* Increase the number of ways the customer can contact
+* Increase revenue by providing a platform for customers to make bookings
+
+### User Goals
+* Find a company that can offer a car cleaning service
+* Find information about the services that are on offer
+* Be able to easily locate the business and get directions
+* Contact the business to make a booking
 
 ## Information Gathering
 
