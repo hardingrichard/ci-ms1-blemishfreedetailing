@@ -575,11 +575,14 @@ Contact Details | Navigate to the Contact Us page and scroll down to the Contact
 
 Site Feature | Path of Action | Outcome | Testing Result
 -------------|----------------|---------|----------------
+Get Directions button | Navigate to Contact Us page and scroll down to click on Get Directions | Clicking button directs you to google maps and directions for sat-nav purposes | Worked as intended
+Google Embeded Map | Navigate to Contact Us page and scroll down to the Where To Find Us section | Can see a large and clear map with a red pin marking the company location on the map | Worked as intended 
 
 <details>
 <summary>See Screenshots</summary>
-<img src="documents/" alt="">
+<img src="documents/user-stories/user-story-4-10-13.png">
 </details>
+<br>
 
 >  No. | As a | I want to | so that
 >  ----|------|-----------|--------
@@ -587,11 +590,13 @@ Site Feature | Path of Action | Outcome | Testing Result
 
 Site Feature | Path of Action | Outcome | Testing Result
 -------------|----------------|---------|----------------
+Services | Navigate to the services page in the Navbar or clicking on the image tiles on main page | Can see the price starting from for each level of service clearly displayed | Worked as intended
 
 <details>
 <summary>See Screenshots</summary>
-<img src="documents/" alt="">
-</details>
+<img src="documents/user-stories/user-story-1-14.png">
+</details>  
+<br>
 
 >  No. | As a | I want to | so that
 >  ----|------|-----------|--------
@@ -599,11 +604,13 @@ Site Feature | Path of Action | Outcome | Testing Result
 
 Site Feature | Path of Action | Outcome | Testing Result
 -------------|----------------|---------|----------------
+Contact Details | Navigate to the contact us page by clicking in navbar then scrolling down to contact details section | Can see the address, email and telephone number displayed clearly | Worked as intended
 
 <details>
 <summary>See Screenshots</summary>
-<img src="documents/" alt="">
+<img src="documents/user-stories/user-story-2-15.png">
 </details>
+<br>
 
 >  No. | As a | I want to | so that
 >  ----|------|-----------|--------
@@ -611,11 +618,13 @@ Site Feature | Path of Action | Outcome | Testing Result
 
 Site Feature | Path of Action | Outcome | Testing Result
 -------------|----------------|---------|----------------
+Portfolio | Navigate to the Gallery page and scroll down to view gallery of images | Can see a 4x4 grid of 16 total images showing a variety of examples of cars worked on | Worked as intended
 
 <details>
 <summary>See Screenshots</summary>
-<img src="documents/" alt="">
+<img src="documents/user-stories/user-story-16.png">
 </details>
+<br>
 
 >  No. | As a | I want to | so that
 >  ----|------|-----------|--------
@@ -623,11 +632,13 @@ Site Feature | Path of Action | Outcome | Testing Result
 
 Site Feature | Path of Action | Outcome | Testing Result
 -------------|----------------|---------|----------------
+Who We Are | Navigate to About page and scroll down to Who We Are sections | Can see a paragraph about the owner of the company, easy to read information about the history and a profile picture of the owner giving a personable experience being able to see who is behind the company | Worked as intended
 
 <details>
 <summary>See Screenshots</summary>
-<img src="documents/" alt="">
+<img src="documents/user-stories/user-story-6-17.png">
 </details>
+<br>
 
 >  No. | As a | I want to | so that
 >  ----|------|-----------|--------
@@ -635,10 +646,12 @@ Site Feature | Path of Action | Outcome | Testing Result
 
 Site Feature | Path of Action | Outcome | Testing Result
 -------------|----------------|---------|----------------
+Navbar | Use navigation bar at top to go to desired page | Clicking on one of the navigation links directs to the relevant page. Clicking the brand name quick directs back to the homepage | Worked as intended
+Image tiles and buttons | Scroll down from home page to read more button or scroll further to services image tiles | Clicking on the read more button navigates to the About Us page for further information about the company. Clicking on each Service image tile navigates directly to the coresponding service type on the Services page, making it easy and efficient to get to the required information | Worked as intended
 
 <details>
 <summary>See Screenshots</summary>
-<img src="documents/" alt="">
+<img src="documents/user-stories/user-story-7-18.png">
 </details>
 
 ## Bugs And Fix
