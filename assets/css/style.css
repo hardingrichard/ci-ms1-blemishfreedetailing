@@ -4,42 +4,13 @@
 
 /* Global style */
 
+/* Website format and fonts/colours */
 body {
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   background-color: #eFF3f7;
   color: #112027;
   height: 100vh;
-}
-
-/* Hero image styling */
-.hero {
-  display: flex;
-  overflow: hidden;
-  height: 75vh;
-  justify-content: center;
-  align-items: center;
-  background: rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 10px 2px #112027;
-}
-
-.hero-content {
-  position: absolute;
-  text-align: center;
-  text-transform: uppercase;
-  object-position: center;
-  color: #eFF3f7;
-  width: 100%;
-  z-index: 0;
-}
-
-.hero-img {
-  display: flex;
-  object-fit: cover;
-  object-position: center;
-  width: 100%;
-  height: 75vh;
-  z-index: -1;
 }
 
 main {
@@ -53,7 +24,6 @@ h1, h2, h3 {
 }
 
 /* Navbar style */
-
 .navbar-theme {
   background-color: #112027;
 }
@@ -85,6 +55,36 @@ h1, h2, h3 {
   flex-grow: 0;
 }
 
+/* Hero Section image styling */
+.hero {
+  display: flex;
+  overflow: hidden;
+  height: 75vh;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px 2px #112027;
+}
+
+.hero-content {
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  object-position: center;
+  color: #eFF3f7;
+  width: 100%;
+  z-index: 0;
+}
+
+.hero-img {
+  display: flex;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 75vh;
+  z-index: -1;
+}
+
 /* Home page style */
 
 /* Override the body color style for h1 */
@@ -98,6 +98,7 @@ h1, h2, h3 {
   border-bottom: solid thin #112027;
 }
 
+/* main button style for site */
 .dark-btn {
   background-color: #112027;
   color: #eFF3f7;
@@ -112,7 +113,7 @@ h1, h2, h3 {
   color: #eFF3f7;
 }
 
-/* Home page Services section */
+/* Home page Services section. Styling of the image containers and their content */
 #main-services {
   display: flex;
   flex-wrap: wrap;
@@ -159,7 +160,7 @@ h1, h2, h3 {
   color: #ffa200;
 }
 
-/* Home page request a booking */
+/* Home page request a booking form */
 #main-booking {
   flex-direction: column;
   text-align: center;
@@ -189,6 +190,7 @@ h1, h2, h3 {
 
 /* About Us page style */
 
+/* Who We Are section style */
 #about-us {
   border-bottom: solid thin #112027;
   padding-bottom: 5vh;
@@ -207,12 +209,14 @@ h1, h2, h3 {
   width: 100%;
 }
 
+/* What We Offer section style */
 #our-services {
   margin: 5vh 0;
   border-bottom: solid thin #112027;
   padding-bottom: 5vh;
 }
 
+/* Our work section style */
 #our-work {
   display: flex;
   flex-wrap: wrap;
@@ -235,38 +239,7 @@ h1, h2, h3 {
 
 /* Services page style */
 
-#packages img {
-  height: 320px;
-  width: 288px;
-  box-shadow: 0 5px 10px #112027;
-  border-radius: 10px;
-}
-
-.packages-content {
-  padding-top: 2vh;
-  padding-bottom: 5vh;
-  margin-bottom: 5vh;
-}
-
-.booking-content {
-  background-color: #792222;
-  margin-top: 2vh;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  box-shadow: 0 5px 10px #112027;
-  border-radius: 10px;
-}
-
-.booking-content h2 {
-  color: #eFF3f7;
-  text-shadow: 0 1px 2px #112027;
-}
-
-.booking-content .dark-btn {
-  color: #112027;
-  background-color: #ffa200;
-}
-
+/* Style for the structure of services information and images */
 .left {
   background-color: #112027;
   color: #eFF3f7;
@@ -289,8 +262,45 @@ h1, h2, h3 {
   color: #ffa200;
 }
 
+/* Style of image tiles */
+#packages img {
+  height: 320px;
+  width: 288px;
+  box-shadow: 0 5px 10px #112027;
+  border-radius: 10px;
+}
+
+/* Services Information box */
+.packages-content {
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+  margin-bottom: 5vh;
+}
+
+/* Booking accent section */
+.booking-content {
+  background-color: #792222;
+  margin-top: 2vh;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: 0 5px 10px #112027;
+  border-radius: 10px;
+}
+
+.booking-content h2 {
+  color: #eFF3f7;
+  text-shadow: 0 1px 2px #112027;
+}
+
+/* Change main button type style to orange with black text  */
+.booking-content .dark-btn {
+  color: #112027;
+  background-color: #ffa200;
+}
+
 /* Gallery Page style */
 
+/* Portfolio images grid style */
 .column img {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
@@ -302,10 +312,30 @@ h1, h2, h3 {
 
 /* Contact Page style */
 
+/* Style for page background colour to override main body style */
 .dark-body {
   background-color: #1F3F50;
 }
 
+/* Structure/format style for Get In Touch, Contact Details, Where To Find Us containers */
+.ind-col {
+  padding: 2vh;
+  margin: 2vh;
+  border-radius: 10px;
+}
+
+.blue-bg {
+  color: #f2f2f0;
+}
+
+.blue-bg h2 {
+  color: #f2f2f0;
+  padding-bottom: 2vh;
+  text-shadow: 0 1px 2px #19181b;
+}
+
+/* Get In Touch Contact Form style */
+/* First and last Name field */
 #flname2 {
   margin-bottom: 0.8rem;
   width: 60%;
@@ -313,6 +343,7 @@ h1, h2, h3 {
   border-radius: 5px;
 }
 
+/* Email field */
 #email2 {
   margin-bottom: 0.8rem;
   width: 60%;
@@ -320,6 +351,7 @@ h1, h2, h3 {
   border-radius: 5px;
 }
 
+/* Message box */
 #mbox2 {
   margin-bottom: 0.6rem;
   width: 90%;
@@ -327,6 +359,7 @@ h1, h2, h3 {
   border-radius: 5px;
 }
 
+/* Contact Details style */
 address a {
   text-decoration: none;
   color: #eFF3f7;
@@ -336,6 +369,7 @@ address a:hover {
   color: #ffa200;
 }
 
+/* Social media links style */
 #contact-socials {
   margin: 5vh 0;
 }
@@ -344,7 +378,6 @@ address a:hover {
   padding: 5vw;
   text-decoration: none;
   color: #ffa200;
-  /* text-shadow: 0 1px 2px #19181b; */
   font-size: 2em;
 }
 
@@ -352,27 +385,8 @@ address a:hover {
   color: #eFF3f7;
 }
 
-.ind-col {
-  padding: 2vh;
-  margin: 2vh;
-  /* border: solid 0.5px #9b9191; */
-  border-radius: 10px;
-  /* box-shadow: 0 5px 10px #19181b; */
-}
-
-.grey-bg {
-  /* background-color: #19181b; */
-  color: #f2f2f0;
-  /* border: solid 1px #807777; */
-}
-
-.grey-bg h2 {
-  color: #f2f2f0;
-  padding-bottom: 2vh;
-  text-shadow: 0 1px 2px #19181b;
-}
-
-.grey-bg .dark-btn {
+/* main button style overridden for colour scheme */
+.blue-bg .dark-btn {
   background-color: #ffa200;
   color: #112027;
   border-radius: 5px;
@@ -381,17 +395,16 @@ address a:hover {
   font-size: 0.75rem;
 }
 
-.grey-bg .dark-btn:hover {
+.blue-bg .dark-btn:hover {
   background-color: #eFF3f7;
   color: #112027;
 }
 
-/* Responsive layout Embedded Google Map */
+/* Responsive Embedded Google Map */
 #map {
   padding-top: 5vh;
   margin: 2vh;
   border-top: solid 1px #112027;
-  /* box-shadow: 0 5px 10px #19181b; */
 }
 
 #responsive-map{
@@ -420,6 +433,7 @@ footer {
   margin-bottom: 0;
 }
 
+/* Social media links and copyright style */
 .footer-socials a {
   display: inline-block;
   padding: 1rem;
@@ -438,9 +452,12 @@ footer {
   padding: 0 0.4rem 0.2rem;
 }
 
+/* Media Queries */
+
 /* Desktop screen size */
 @media (min-width: 900px) {
   
+  /* Navigation bar */
   .navbar {
     font-size: 1.2rem;
   }
@@ -473,20 +490,14 @@ footer {
 
   /* About page style */
 
-  /* .about-cont {
-    border: solid 1px magenta;
-  } */
-
   #about-us {
   display: flex;
   border-bottom: solid thin #112027;
   padding-bottom: 5vh;
   width: 100%;
-  /* border: solid 1px green; */
   }
 
   .about-col1 {
-  /* border: solid 1px blue; */
   width: 70%;
   padding: 2vw;
   }
@@ -501,7 +512,6 @@ footer {
   border-radius: 50%;
   overflow: hidden;
   margin: auto;
-  /* border: solid 1px blue; */
   }
 
   #profile-img > img {
@@ -518,50 +528,40 @@ footer {
 
   /* Services page style */
 
-  /* .services-cont {
-    border: solid 1px magenta;
-  } */
-
   #basic-valet {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
-    /* border: solid 1px green; */
   }
 
   #full-valet {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    /* border: solid 1px green; */
   }
 
   #correction {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
-    /* border: solid 1px green; */
   }
 
   #concours {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    /* border: solid 1px green; */
   }
 
   .col1 {
     margin: 1vw;
     justify-content: center;
     width: 30%;
-    /* border: solid 1px blue; */
   }
 
   .col2 {
     margin: 1vw;
     justify-content: center;
     width: 70%;
-    /* border: solid 1px blue; */
   }
 
   .col3 {
@@ -569,7 +569,6 @@ footer {
     width: 100%;
     margin-top: 2vh;
     font-size: 2rem;
-    /* border: solid 1px green; */
   }
 
   /* Gallery page - Four columns stacked on one another - 
@@ -595,20 +594,17 @@ footer {
 
   /* Contact page - booking form side by side contact information */
   .container {
-    /* border: solid 1px magenta; */
     padding: 0;
   }
 
   .contact-column {
     display: flex;
-    /* border: solid 1px green; */
     margin: 0;
     justify-content: center;
   }
 
   .ind-col {
     width: 50%;
-    /* border: solid 1px blue; */
     margin-bottom: 5vh;
   }
 
@@ -626,20 +622,14 @@ footer {
 
   /* About page style */
 
-  /* .about-cont {
-    border: solid 1px magenta;
-  } */
-
   #about-us {
     display: flex;
     border-bottom: solid thin #112027;
     padding-bottom: 5vh;
     width: 100%;
-    /* border: solid 1px green; */
   }
 
   .about-col1 {
-    /* border: solid 1px blue; */
     width: 70%;
     padding: 2vw;
   }
@@ -654,7 +644,6 @@ footer {
     border-radius: 50%;
     overflow: hidden;
     margin: auto;
-    /* border: solid 1px blue; */
   }
 
   #profile-img > img {
@@ -671,36 +660,28 @@ footer {
 
   /* Services page style */
 
-  /* .services-cont {
-    border: solid 1px magenta;
-  } */
-
   #basic-valet {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
-    /* border: solid 1px green; */
   }
 
   #full-valet {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    /* border: solid 1px green; */
   }
 
   #correction {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
-    /* border: solid 1px green; */
   }
 
   #concours {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    /* border: solid 1px green; */
   }
 
   .col1 {
@@ -708,7 +689,6 @@ footer {
     width: 30%;
     vertical-align: middle;
     align-self: center;
-    /* border: solid 1px blue; */
   }
 
   .col2 {
@@ -716,7 +696,6 @@ footer {
     justify-content: center;
     width: 70%;
     max-height: 320px;
-    /* border: solid 1px blue; */
   }
 
   .col3 {
@@ -724,7 +703,6 @@ footer {
     width: 100%;
     margin-top: 2vh;
     font-size: 2rem;
-    /* border: solid 1px green; */
   }
 
   /* Gallery page - Two columns stacked on one another */
@@ -736,20 +714,17 @@ footer {
 
   /* Contact page - booking form side by side contact information */
   .container {
-    /* border: solid 1px magenta; */
     padding: 0;
   }
 
   .contact-column {
     display: flex;
-    /* border: solid 1px green; */
     margin: 0;
     justify-content: center;
   }
 
   .ind-col {
     width: 50%;
-    /* border: solid 1px blue; */
     margin-bottom: 5vh;
   }
 
