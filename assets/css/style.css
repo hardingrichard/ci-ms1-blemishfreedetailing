@@ -529,32 +529,32 @@ footer {
   /* About page style */
 
   #about-us {
-  display: flex;
-  border-bottom: solid thin #112027;
-  padding-bottom: 5vh;
-  width: 100%;
+    display: flex;
+    border-bottom: solid thin #112027;
+    padding-bottom: 5vh;
+    width: 100%;
   }
 
   .about-col1 {
-  width: 70%;
-  padding: 2vw;
+    width: 70%;
+    padding: 2vw;
   }
 
   .about-col2 {
-  display: flex;
-  width: 30%;
-  vertical-align: middle;
+    display: flex;
+    width: 30%;
+    vertical-align: middle;
   }
 
   #profile-img {
-  border-radius: 50%;
-  overflow: hidden;
-  margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
   }
 
   #profile-img > img {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
   }
 
   .example-work {
