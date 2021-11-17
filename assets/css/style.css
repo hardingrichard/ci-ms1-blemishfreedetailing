@@ -454,8 +454,12 @@ footer {
 
 /* 404 page style */
 
+/* Remove blank space under footer */
+.error {
+  min-height: 100vh;
+}
+
 .error-cont {
-  margin-bottom: 20vh;
   position: relative;
   width: 100%;
   overflow: hidden;
