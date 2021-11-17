@@ -318,6 +318,10 @@ See dropdowns below to view screenshots.
 <summary>Contact Us Page</summary>
 <img src="documents/validation/validation-contact.png" alt="Contact Us page validation image">
 </details>
+<details>
+<summary>404 Error Page</summary>
+<img src="documents/validation/validation-404.png" alt="404 Error page validation image">
+</details>
 
 #### CSS Validation
 To test and validate the CSS code of the website, the W3C CSS Validation Service was used, resulting in zero errors and zero warnings 
@@ -353,6 +357,10 @@ In order to test the performance of the website, Google Lighthouse was used in t
 <summary>Contact Us Page</summary>
 <img src="documents/validation/lighthouse-contact.png" alt="A screenshot showing the contact us page performance test with Google Lighthouse in Google Dev Tools">
 </details>
+<details>
+<summary>404 Error Page</summary>
+<img src="documents/validation/lighthouse-404.png" alt="A screenshot showing the 404 Error page performance test with Google Lighthouse in Google Dev Tools">
+</details>
 
 ### Accessibility
 To validate the accessibility of the website, the WAVE powered by WebAIM web accessibility evaluation tool was used. There were zero errors presented
@@ -376,6 +384,10 @@ which ensures that the website is of a high standard in terms of accessibility. 
 <details>
 <summary>Contact Us Page</summary>
 <img src="documents/validation/accessibility-contact.png" alt="A screenshot showing the Contact Us page accessibility validation with WebAIM evaluation tool">
+</details>
+<details>
+<summary>404 Error Page</summary>
+<img src="documents/validation/accessibility-404.png" alt="A screenshot showing the 404 Error page accessibility validation with WebAIM evaluation tool">
 </details>
 
 ### Compatibility
