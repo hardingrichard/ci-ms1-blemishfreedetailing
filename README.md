@@ -98,7 +98,8 @@ No. | As a | I want to | so that
 16 | site owner | have a gallery page | potential customers can see past work.
 17 | site owner | information about the company | I can build customer trust in the company.
 18 | site owner | have a simple and navigatable website | customers are able to easily find the information they are after.
-
+19 | site owner | have an error page | when a customer navigates to a page that does not exist a 404 error page is presented.
+20 | site owner | have a responsive website | customers can view the website across various devices.
 
 ## Site Design
 
@@ -155,7 +156,7 @@ The website consists of 5 pages all of which have 3 features which appear consis
 
 #### Navigation Bar
 * Responsive to smaller screens with use of a hamburger menu toggler with dropdown to each page, allows user to easily click to navigate rather than having small links squeezed into a tiny area
-* User Story referenced: 7, 18
+* User Story referenced: 7, 18, 20
 <img src="documents/features/navbar.png" alt="navigation bar screenshot">
 
 #### Hero Image
@@ -253,6 +254,15 @@ The Contact Us page consists of 3 features: contact form, contact details, googl
 * Allows the users to view the company location on an embedded google map making the company easy to find and further opportunity to get visual directions to where the company is located
 * User Story referenced: 4, 10, 13
 <img src="documents/features/contact-map.png" alt="Screenshot of an embedded google map showing the company location">
+
+### 404 Error page
+The 404 Error Page consists of 2 features: 404 error image and a Return Home button
+
+#### 404 Error Image and Return Home button
+* Allows the user to see that they have tried accessing a page that didnt exist and is presented with an error message in form of an image
+* A Return Home button which allows the user to navigate back to the Home Page without having to press the back button
+* User Story Referenced: 19
+* <img src="documents/features/error-404.png" alt="Screenshot of a 404 page not found image with Return Home button overlay">
 
 ## Future Scope
 
@@ -654,6 +664,38 @@ Image tiles and buttons | Scroll down from home page to read more button or scro
 <summary>See Screenshots</summary>
 <img src="documents/user-stories/user-story-7-18.png">
 </details>
+<br>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  19 | site owner | have an error page | when a customer navigates to a page that does not exist a 404 error page is presented.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+404 Error image | Produce a page error by adding an extra l on the end of /index.html | A 404 error page is loaded and displayed with the message "404 Page Not Found. Something appears to have broken down! | Worked as intended
+Return Home Button | Produce a page error by adding an extra l on the end of /index.html | A 404 error page is loaded and displayed, under the error message in the image is a navigation button, when clicked directs the user back to the Home page of the website | Worked as intended
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/user-stories/user-story-19.png">
+</details>
+<br>
+
+>  No. | As a | I want to | so that
+>  ----|------|-----------|--------
+>  20 | site owner | have a responsive website | customers can view the website across various devices.
+
+Site Feature | Path of Action | Outcome | Testing Result
+-------------|----------------|---------|----------------
+Navbar | Open website on mobile device to view a hamburger menu icon in the top right corner in place of navigation links | Clicking on the hamburger icon in the top right corner collapses the navigation menu allowing the user to easily see and click on the website pages. Clicking on one of the links navigates to desired page on smaller screens | Worked as intended
+Images | Open website across the following devices: Mobile, Tablet, Desktop. Scroll down from Home page to images of Service Image tiles | Opening the Home page on mobile, the user is presented with a column of 4 images stacked ontop of one another. Opening the Home page on tablet the user is presented with a grid of 2x2 images. Opening the Home page on desktop the user is presented with a row of 4 images | Worked as intended
+
+<details>
+<summary>See Screenshots</summary>
+<img src="documents/user-stories/user-story-20i.png">
+<img src="documents/user-stories/user-story-20ii.png">
+</details>
+<br>
 
 ## Bugs And Fix
 Known Bugs | Fix
