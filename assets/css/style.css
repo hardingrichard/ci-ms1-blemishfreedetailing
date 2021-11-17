@@ -452,6 +452,44 @@ footer {
   padding: 0 0.4rem 0.2rem;
 }
 
+/* 404 page style */
+
+.error-cont {
+  margin-bottom: 20vh;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 10px 2px #112027;
+  border: solid 2px #ffa200;
+  border-radius: 15px;
+}
+
+.error-img {
+  width: 100%;
+  height: auto;
+}
+
+.error .dark-btn {
+  position: absolute;
+  padding: 2vw;
+  min-width: 35%;
+  top: 56%;
+  left: 67%;
+  transform: translate(-50%, -70%);
+  background-color: #ffa200;
+  color: #112027;
+  font-size: 2.5vw;
+  text-transform: capitalize;
+  text-decoration: none;
+  box-shadow: 0 0 10px 2px #112027;
+  border-radius: 10px;
+}
+
+.error .dark-btn:hover {
+  background-color: #792222;
+  color: #eFF3f7;
+}
+
 /* Media Queries */
 
 /* Desktop screen size */
