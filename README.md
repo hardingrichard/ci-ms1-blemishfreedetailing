@@ -24,6 +24,7 @@ A static website for a small-medium sized company specialising in car detailing.
     4. [Services](#services)
     5. [Gallery](#gallery)
     6. [Contact Us](#contact-us)
+    7. [404 Error Page](#404-error-page)
 5. [Future Scope](#future-scope)
 6. [Technology Stack](#technology-stack)
     1. [Languages](#languages)
