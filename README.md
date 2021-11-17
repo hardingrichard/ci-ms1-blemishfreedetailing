@@ -256,14 +256,14 @@ The Contact Us page consists of 3 features: contact form, contact details, googl
 * User Story referenced: 4, 10, 13
 <img src="documents/features/contact-map.png" alt="Screenshot of an embedded google map showing the company location">
 
-### 404 Error page
+### 404 Error Page
 The 404 Error Page consists of 2 features: 404 error image and a Return Home button
 
 #### 404 Error Image and Return Home button
 * Allows the user to see that they have tried accessing a page that didnt exist and is presented with an error message in form of an image
 * A Return Home button which allows the user to navigate back to the Home Page without having to press the back button
 * User Story Referenced: 19
-* <img src="documents/features/error-404.png" alt="Screenshot of a 404 page not found image with Return Home button overlay">
+<img src="documents/features/error-404.png" alt="Screenshot of a 404 page not found image with Return Home button overlay">
 
 ## Future Scope
 
