@@ -695,7 +695,6 @@ Images | Open website across the following devices: Mobile, Tablet, Desktop. Scr
 <img src="documents/user-stories/user-story-20i.png">
 <img src="documents/user-stories/user-story-20ii.png">
 </details>
-<br>
 
 ## Bugs And Fix
 Known Bugs | Fix
